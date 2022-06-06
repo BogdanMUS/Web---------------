@@ -1,0 +1,245 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Play&display=swap");
+html,
+body {
+  height: 100%;
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  max-width: 1180px;
+  margin: 0px auto;
+  padding: 0px 5px;
+  border: 2px solid red;
+}
+.container .header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 50;
+}
+.container .header:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 80%;
+  background-color: rgb(0, 0, 0);
+  z-index: 2;
+}
+.container .header .header__body {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 80px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.container .header .header__logo {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 60px;
+          flex: 0 0 60px;
+  border-radius: 50%;
+  overflow: hidden;
+  position: relative;
+  z-index: 3;
+}
+.container .header .header__logo img {
+  max-width: 100%;
+  display: block;
+}
+.container .header .header__burger {
+  display: none;
+}
+.container .header .header__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  z-index: 2;
+  position: relative;
+  margin-right: 400px;
+  margin-top: -1px;
+}
+.container .header .header__list li {
+  list-style: none;
+  margin: 0px 0px 0px 20px;
+}
+.container .header .header__link {
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: 600;
+  font-family: "Play", sans-serif;
+  text-decoration: none;
+}
+.container .header .button-reg {
+  width: 120px;
+  height: 21px;
+  background-color: rgb(0, 0, 0);
+  border: 1px solid rgb(255, 255, 255);
+  position: absolute;
+  margin-left: 650px;
+  border-radius: 10px;
+  font-size: 9px;
+  font-weight: 700;
+  color: aliceblue;
+}
+
+.content {
+  /*слайдер*/
+}
+.content .Glavna1 {
+  height: 700px;
+  padding: 18px 0 0;
+  position: relative;
+  background-image: url("https://mskcrossfit.ru/wp-content/uploads/2017/03/download.jpg");
+}
+.content .gl {
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.content .Glavnap1 {
+  margin-left: 685px;
+  margin-top: 310px;
+  color: rgb(255, 255, 255);
+  font-size: 36px;
+  width: 400px;
+  position: absolute;
+  font-style: normal;
+  font-weight: 700;
+  font-family: "Play", sans-serif;
+}
+.content .Glavnap2 {
+  color: rgb(255, 255, 255);
+  margin-left: 690px;
+  margin-top: 400px;
+  position: absolute;
+  font-size: 16px;
+  font-weight: 700;
+  font-style: normal;
+  font-family: "Play", sans-serif;
+}
+.content .button_glav {
+  position: absolute;
+  width: 203px;
+  height: 37px;
+  background: #ff2f2f;
+  border-radius: 31px;
+  margin-top: 470px;
+  margin-left: 690px;
+  font-family: "Play", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+}
+.content .section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.content .section .bloc1 {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  padding: 0px;
+  margin-bottom: 20px;
+  height: 950px;
+  background: #000000;
+}
+.content .section .bloc1 .img_bloc1 {
+  height: 481px;
+  padding: 18px 0 0;
+  position: relative;
+  background-image: url("https://mskcrossfit.ru/wp-content/uploads/2017/03/about2.jpg");
+}
+.content .section .bloc1 .rf {
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.content .section .bloc1 h4 {
+  color: aliceblue;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  margin-top: 70px;
+  color: #919191;
+  position: absolute;
+  margin-left: 85px;
+  font-family: "Play", sans-serif;
+}
+.content .section .bloc1 h1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  position: absolute;
+  color: #ffffff;
+  width: 450px;
+  margin-top: 170px;
+  margin-left: 85px;
+  font-family: "Play", sans-serif;
+}
+.content .section .bloc1 p {
+  font-weight: 400;
+  font-size: 20px;
+  color: #e0e0e0;
+  position: relative;
+  margin-top: 280px;
+  font-family: "Play", sans-serif;
+  margin-left: 85px;
+  margin-right: 50px;
+  display: block;
+}
+.content .swiper {
+  width: 1100px;
+  height: 650px;
+  margin-top: -500px;
+  position: relative;
+}
+.content .swiper-slide {
+  position: relative;
+}
+.content .swiper-slide img {
+  position: relative;
+}
+.content .swiper .swiper-button-prev {
+  color: #9f9f9f;
+}
+.content .swiper .swiper-button-next {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #9f9f9f;
+}
+.content .swiper .swiper-button-disabled {
+  color: #000;
+}
+.content .swiper-button-next:after {
+  font-family: swiper-icons;
+  font-size: var(--swiper-navigation-size);
+  text-transform: none !important;
+  letter-spacing: 0;
+  text-transform: none;
+  font-variant: initial;
+  line-height: 1;
+  margin-left: -65px;
+}
+.content .swiper-button-prev:after {
+  font-family: swiper-icons;
+  font-size: var(--swiper-navigation-size);
+  text-transform: none !important;
+  letter-spacing: 0;
+  text-transform: none;
+  font-variant: initial;
+  line-height: 1;
+  margin-left: 65px;
+}
