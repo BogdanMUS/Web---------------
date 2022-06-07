@@ -1,3 +1,11 @@
+document.addEventListener("DOMContentLoaded", function () {
+    const slider = new ChiefSlider(".slider", {
+        loop: true,
+        autoplay: false,
+        interval: 1000,
+    });
+});
+
 $(document).ready(function () {
     $(".header__burger").click(function (event) {
         $(".header__burger,.header__menu").toggleClass("active");
@@ -24,8 +32,8 @@ const swiper = new Swiper(".swiper", {
     },
 
     spaceBetween: 70,
-    slidesPerView: 3,
-    slidesPerGroup: 3,
+    slidesPerView: 1,
+    slidesPerGroup: 1,
 
     // And if we need scrollbar
 });
