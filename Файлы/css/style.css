@@ -12,14 +12,16 @@ body {
   margin: 0px auto;
   padding: 0px 5px;
 }
-.container .header {
+
+.header {
   position: fixed;
   width: 100%;
   top: 0;
   left: 0;
   z-index: 50;
 }
-.container .header:before {
+
+header:before {
   content: "";
   position: absolute;
   top: 0;
@@ -29,7 +31,8 @@ body {
   background-color: rgb(0, 0, 0);
   z-index: 2;
 }
-.container .header .header__body {
+
+.header__body {
   position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -42,7 +45,8 @@ body {
       -ms-flex-align: center;
           align-items: center;
 }
-.container .header .header__logo {
+
+.header__logo {
   -webkit-box-flex: 0;
       -ms-flex: 0 0 60px;
           flex: 0 0 60px;
@@ -51,14 +55,17 @@ body {
   position: relative;
   z-index: 3;
 }
-.container .header .header__logo img {
+
+.header__logo img {
   max-width: 100%;
   display: block;
 }
-.container .header .header__burger {
+
+.header__burger {
   display: none;
 }
-.container .header .header__list {
+
+.header__list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -67,11 +74,13 @@ body {
   margin-right: 400px;
   margin-top: -1px;
 }
-.container .header .header__list li {
+
+.header__list li {
   list-style: none;
   margin: 0px 0px 0px 20px;
 }
-.container .header .header__link {
+
+.header__link {
   color: rgb(255, 255, 255);
   text-transform: uppercase;
   font-size: 15px;
@@ -79,7 +88,8 @@ body {
   font-family: "Play", sans-serif;
   text-decoration: none;
 }
-.container .header .button-reg {
+
+.button-reg {
   width: 120px;
   height: 21px;
   background-color: rgb(0, 0, 0);
@@ -92,6 +102,125 @@ body {
   color: aliceblue;
 }
 
+@media (max-width: 900px) {
+  .header__burger {
+    position: relative;
+    display: block;
+    width: 30px;
+    height: 20px;
+    position: relative;
+    z-index: 3;
+  }
+
+  .header__burger span {
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    left: -50px;
+    width: 100%;
+    height: 2px;
+    top: 9px;
+  }
+
+  .header__burger:before {
+    content: "";
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 2px;
+    left: -50px;
+  }
+  .header__burger:after {
+    content: "";
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 2px;
+    left: -50px;
+  }
+
+  .header__burger:before {
+    top: 0;
+  }
+
+  .header__burger:after {
+    bottom: 0;
+  }
+
+  .header__menu {
+    position: fixed;
+    top: 0;
+    left: -290%;
+    width: 100%;
+    height: 40%;
+    background-color: rgb(200, 58, 58);
+    padding: 70px 10px 20px 10px;
+    overflow: auto;
+  }
+
+  .header__list {
+    display: block;
+  }
+
+  .header__list li {
+    margin: 0px 0px 20px 0px;
+  }
+
+  .header__burger:before {
+    top: 0;
+  }
+
+  .header__burger:after {
+    bottom: 0;
+  }
+
+  .header__burger.active:before {
+    -webkit-transform: rotate(45deg);
+            transform: rotate(45deg);
+    top: 9px;
+  }
+
+  .header__burger.active:after {
+    -webkit-transform: rotate(-45deg);
+            transform: rotate(-45deg);
+    bottom: 9px;
+  }
+
+  .header__burger.active span {
+    -webkit-transform: scale(0);
+            transform: scale(0);
+  }
+
+  .header__menu.active {
+    left: 0;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
+
+  .header__logo {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 40px;
+            flex: 0 0 40px;
+    margin-left: -7%;
+  }
+
+  .header__body {
+    height: 70px;
+  }
+
+  .button-reg {
+    width: 120px;
+    height: 21px;
+    background-color: rgb(0, 0, 0);
+    border: 1px solid rgb(255, 255, 255);
+    position: absolute;
+    margin-left: -5px;
+    border-radius: 10px;
+    font-size: 9px;
+    font-weight: 700;
+    color: aliceblue;
+  }
+}
 .content {
   /*слайдер*/
 }
@@ -416,7 +545,7 @@ body {
           flex: 1;
   padding: 0px;
   height: 390px;
-  background-color: #2a2a2a;
+  background-color: #232323;
   margin-top: 498px;
   z-index: 5;
   cursor: pointer;
@@ -489,6 +618,7 @@ body {
   margin-left: 145px;
   font-weight: 700;
   color: #ffffff;
+  font-family: "Play", sans-serif;
 }
 .content .bloc-flex .container_flex .flex-bloc1 .flex_bloc_1 .h1 {
   position: absolute;
@@ -513,4 +643,1025 @@ body {
   position: relative;
   margin-top: -165px;
   color: #ffffff;
+}
+.content .contact {
+  background-color: #232323;
+  width: 100%;
+  position: absolute;
+  height: 400px;
+}
+.content .contact .container_content {
+  max-width: 1180px;
+  margin: 0px auto;
+  padding: 0px 5px;
+}
+.content .contact .container_content h1 {
+  font-weight: 700;
+  font-size: 48px;
+  color: #ffffff;
+  font-family: "Play", sans-serif;
+  margin-top: 50px;
+  margin-left: 460px;
+  position: absolute;
+}
+.content .contact .container_content .p-contact {
+  position: absolute;
+  color: #ffffff;
+  font-family: "Play", sans-serif;
+  margin-top: 120px;
+  font-size: 25px;
+}
+.content .contact .container_content .p-contact p {
+  padding-top: -5px;
+}
+.content .contact .container_content .p-contact1 {
+  position: absolute;
+  color: #ffffff;
+  font-family: "Play", sans-serif;
+  margin-top: 120px;
+  font-size: 25px;
+  margin-left: 749px;
+  width: 320px;
+}
+.content .futer {
+  background-color: #000;
+  width: 100%;
+  height: 100px;
+  position: absolute;
+  margin-top: 400px;
+}
+.content .futer p {
+  color: #919191;
+  font-size: 15px;
+  margin-top: 40px;
+  margin-left: 20px;
+}
+
+@media (max-width: 1179px) {
+  .content {
+    /*слайдер*/
+  }
+  .content .Glavna1 {
+    height: 700px;
+    padding: 18px 0 0;
+    position: relative;
+    background-image: url("https://mskcrossfit.ru/wp-content/uploads/2017/03/download.jpg");
+  }
+  .content .gl {
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .content .Glavnap1 {
+    margin-left: 600px;
+    margin-top: 310px;
+    color: rgb(255, 255, 255);
+    font-size: 36px;
+    width: 400px;
+    position: absolute;
+    font-style: normal;
+    font-weight: 700;
+    font-family: "Play", sans-serif;
+  }
+  .content .Glavnap2 {
+    color: rgb(255, 255, 255);
+    margin-left: 605px;
+    margin-top: 400px;
+    position: absolute;
+    font-size: 16px;
+    font-weight: 700;
+    font-style: normal;
+    font-family: "Play", sans-serif;
+  }
+  .content .button_glav {
+    position: absolute;
+    width: 203px;
+    height: 37px;
+    background: #ff2f2f;
+    border-radius: 31px;
+    margin-top: 470px;
+    margin-left: 600px;
+    font-family: "Play", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+  }
+  .content .section {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .content .section .bloc1 {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    padding: 0px;
+    margin-bottom: 20px;
+    height: 1090px;
+    background: #000000;
+  }
+  .content .section .bloc1 button {
+    position: absolute;
+    font-family: "Play", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    background: #ff2f2f;
+    border-radius: 31px;
+    width: 203px;
+    height: 37px;
+    margin-left: 80px;
+    margin-top: 15px;
+  }
+  .content .section .bloc1 .img_bloc1 {
+    height: 481px;
+    padding: 18px 0 0;
+    position: relative;
+    background-image: url("https://mskcrossfit.ru/wp-content/uploads/2017/03/about2.jpg");
+  }
+  .content .section .bloc1 .rf {
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .content .section .bloc1 h4 {
+    color: aliceblue;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    margin-top: 50px;
+    color: #919191;
+    position: absolute;
+    margin-left: 85px;
+    font-family: "Play", sans-serif;
+  }
+  .content .section .bloc1 h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    position: absolute;
+    color: #ffffff;
+    width: 450px;
+    margin-top: 110px;
+    margin-left: 85px;
+    font-family: "Play", sans-serif;
+  }
+  .content .section .bloc1 p {
+    font-weight: 400;
+    font-size: 20px;
+    color: #e0e0e0;
+    position: relative;
+    margin-top: 220px;
+    font-family: "Play", sans-serif;
+    margin-left: 85px;
+    margin-right: 50px;
+    display: block;
+  }
+  .content .slider__wrapper {
+    overflow: hidden;
+    margin-top: -630px;
+    height: 510px;
+    position: relative;
+    z-index: 45;
+  }
+  .content .slider__item {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 38.3333333333%;
+            flex: 0 0 38.3333333333%;
+    max-width: 40.3333333333%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 7rem;
+    position: relative;
+  }
+  .content .slider__item .sclae___img__icon {
+    position: absolute;
+    margin-top: -170px;
+  }
+  .content .slider__item .scale_img {
+    display: inline-block;
+    /* Строчно-блочный элемент */
+    overflow: hidden;
+    /* Скрываем всё за контуром */
+  }
+  .content .slider__item .scale_img img {
+    position: relative;
+    -webkit-transition: 0.2s;
+    transition: 0.2s;
+    /* Время эффекта */
+    display: block;
+    /* Убираем небольшой отступ снизу */
+  }
+  .content .slider__item .scale_img img:hover {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+    background-color: #ff2f2f;
+  }
+  .content .slider__item h1 {
+    font-size: 20px;
+    position: absolute;
+    width: 270px;
+    margin-top: 70px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: "Play", sans-serif;
+  }
+  .content .slider__item p {
+    font-size: 15px;
+    color: #ffffff;
+    position: absolute;
+    text-align: center;
+    width: 290px;
+    margin-top: 210px;
+  }
+  .content .slider__control {
+    background-color: rgba(114, 114, 114, 0.601);
+    z-index: 46;
+  }
+  .content .swiper {
+    width: 100%;
+    height: 588px;
+    margin-top: -90px;
+    position: absolute;
+  }
+  .content .swiper-slide .section {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .content .swiper-slide .section .bloc2 {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    padding: 0px;
+    margin-bottom: 40px;
+    height: 590px;
+    background-color: #f32323;
+    margin-top: 70px;
+    z-index: 50;
+    cursor: pointer;
+  }
+  .content .swiper-slide .section .bloc2 h2 {
+    font-size: 10px;
+    margin-top: 50px;
+    color: #000;
+    color: rgba(216, 216, 216, 0.64);
+    font-weight: 700;
+    font-size: 12px;
+    margin-left: 70px;
+  }
+  .content .swiper-slide .section .bloc2 h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    color: #ffffff;
+    margin-left: 70px;
+    margin-top: 50px;
+  }
+  .content .swiper-slide .section .bloc2 p {
+    font-style: normal;
+    font-weight: 200;
+    font-size: 20px;
+    margin-left: 70px;
+    margin-right: 70px;
+    color: #ffffff;
+  }
+  .content .swiper-slide .section .bloc2 .button_glav3 {
+    position: absolute;
+    font-family: "Play", sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    background: #000000;
+    border-radius: 31px;
+    width: 203px;
+    color: #ff0000;
+    height: 37px;
+    margin-left: 80px;
+    margin-top: 15px;
+    cursor: pointer;
+  }
+  .content .swiper-slide .section .bloc2 .img_bloc1 {
+    height: 500px;
+    padding: 18px 0 0;
+    position: relative;
+    background-image: url("https://mskcrossfit.ru/wp-content/uploads/2017/03/cf.jpg");
+  }
+  .content .swiper-slide .section .bloc2 .img_bloc2 {
+    height: 500px;
+    padding: 18px 0 0;
+    position: relative;
+    background-image: url("https://sun2.ufanet.userapi.com/s/v1/ig2/F1s8hn7BXn0SfRyC5IQDXhh9QrOD7JkvGhRqggeL6huffJNw8JeWrWz5UckfzU6dkNUlA17f0VkjAab6nrf6Wbcq.jpg?size=633x477&quality=96&type=album");
+  }
+  .content .swiper-slide .section .bloc2 .img_bloc3 {
+    height: 500px;
+    padding: 18px 0 0;
+    position: relative;
+    background-image: url("https://sun9-north.userapi.com/sun9-85/s/v1/ig2/Vo3_pLayTsGDN1YdFjVW5zHFyjdwUO2gMv8UPMF0d1ToeVngNlb4Y6SHvd0VbqbKupcYGJKWwCcDVTJEBNaiwHuB.jpg?size=633x477&quality=96&type=album");
+  }
+  .content .swiper-slide .section .bloc2 .img_bloc4 {
+    height: 500px;
+    padding: 18px 0 0;
+    position: relative;
+    background-image: url("https://sun1.ufanet.userapi.com/s/v1/ig2/SVdgO_kXfOq01c2_Q1Cm9SASVi88d-gXvL-LRqBaxHbqCAlVQQzhBZj7G5zhY2WUdbi0d7G4OoZA1vmhkFD-Phaz.jpg?size=633x477&quality=96&type=album");
+  }
+  .content .swiper-slide .section .bloc2 .img_bloc5 {
+    height: 500px;
+    padding: 18px 0 0;
+    position: relative;
+    background-image: url("https://sun1.ufanet.userapi.com/s/v1/ig2/bY_Dtss0Xg9JfXfW45wNQ3LR_exQD5Hn2HVbg_Sozg08YVNeUnY0m80aJr7VSmxFHord8I2wl13wmSYFt56sgAwC.jpg?size=633x477&quality=96&type=album");
+  }
+  .content .swiper-slide .section .bloc2 .img_bloc6 {
+    height: 500px;
+    padding: 18px 0 0;
+    position: relative;
+    background-image: url("https://sun2.ufanet.userapi.com/s/v1/ig2/4JRke4-aSwAHO-oAcHl6yaRQ8u54xwA3FcAOISKQ23WXhNdP2dDaYVppRfHS2WStJxqWd4IAc0Pz1nxL6BOWdw-c.jpg?size=633x477&quality=96&type=album");
+  }
+  .content .swiper-slide .section .bloc2 .img_bloc7 {
+    height: 500px;
+    padding: 18px 0 0;
+    position: relative;
+    background-image: url("https://mskcrossfit.ru/wp-content/uploads/2017/03/about2.jpg");
+  }
+  .content .swiper-slide .section .bloc2 .rf {
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .content .swiper-pagination {
+    margin-left: 170px;
+    margin-top: -40px;
+    position: relative;
+    z-index: 4;
+  }
+  .content .swiper .swiper-pagination-bullet {
+    width: 10px;
+    height: 10px;
+    border: 5px solid #ffffff;
+    background-color: #bebebe;
+  }
+  .content .swiper .swiper-button-disabled {
+    color: #000;
+  }
+  .content .bloc_content .section {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .content .bloc_content .section .bloc3 {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    padding: 0px;
+    height: 390px;
+    background-color: #232323;
+    margin-top: 498px;
+    z-index: 5;
+    cursor: pointer;
+  }
+  .content .bloc_content .section .bloc3 h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    width: 100px;
+    position: relative;
+    margin-top: 35px;
+    color: #ffffff;
+    font-family: "Play", sans-serif;
+    margin-left: 85px;
+    margin-right: 50px;
+  }
+  .content .bloc_content .section .bloc3 .crug {
+    position: absolute;
+    width: 15px;
+    height: 13px;
+    background: #ff4343;
+    border-radius: 10px;
+    margin-top: 5px;
+    margin-left: 50px;
+  }
+  .content .bloc_content .section .bloc3 p {
+    color: #ffffff;
+    font-size: 20px;
+    margin-left: 85px;
+    margin-top: 85px;
+  }
+  .content .bloc_content .section .bloc3 .text_bloc3 {
+    margin-bottom: -45px;
+  }
+  .content .bloc-flex {
+    background-color: #000000;
+    height: 455px;
+  }
+  .content .bloc-flex .container_flex {
+    max-width: 1180px;
+    margin: 0px auto;
+    padding: 0px 5px;
+  }
+  .content .bloc-flex .container_flex .flex-bloc1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .content .bloc-flex .container_flex .flex-bloc1 .flex_bloc_1 {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    padding: -30px;
+    margin-left: 10px;
+    height: 490px;
+    margin-right: 15px;
+    background: #8ee391;
+    z-index: 10;
+    margin-top: -20px;
+  }
+  .content .bloc-flex .container_flex .flex-bloc1 .flex_bloc_1 .img_bloc1 {
+    width: 100%;
+    height: 100%;
+  }
+  .content .bloc-flex .container_flex .flex-bloc1 .flex_bloc_1 .img-flex {
+    position: absolute;
+    margin-top: -320px;
+    margin-left: 130px;
+  }
+  .content .bloc-flex .container_flex .flex-bloc1 .flex_bloc_1 h1 {
+    position: absolute;
+    font-size: 30px;
+    margin-top: -220px;
+    margin-left: 130px;
+    font-weight: 700;
+    color: #ffffff;
+    font-family: "Play", sans-serif;
+  }
+  .content .bloc-flex .container_flex .flex-bloc1 .flex_bloc_1 .h1 {
+    position: absolute;
+    font-size: 30px;
+    margin-top: -220px;
+    margin-left: 90px;
+    font-weight: 700;
+    color: #ffffff;
+  }
+  .content .bloc-flex .container_flex .flex-bloc1 .flex_bloc_1 .h2 {
+    position: absolute;
+    font-size: 30px;
+    margin-top: -220px;
+    margin-left: 105px;
+    font-weight: 700;
+    color: #ffffff;
+  }
+  .content .bloc-flex .container_flex .flex-bloc1 .flex_bloc_1 p {
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    position: relative;
+    margin-top: -165px;
+    color: #ffffff;
+  }
+  .content .contact {
+    background-color: #232323;
+    width: 100%;
+    position: absolute;
+    height: 400px;
+  }
+  .content .contact .container_content {
+    max-width: 1180px;
+    margin: 0px auto;
+    padding: 0px 5px;
+  }
+  .content .contact .container_content h1 {
+    font-weight: 700;
+    font-size: 48px;
+    color: #ffffff;
+    font-family: "Play", sans-serif;
+    margin-top: 50px;
+    margin-left: 430px;
+    position: absolute;
+  }
+  .content .contact .container_content .p-contact {
+    position: absolute;
+    color: #ffffff;
+    font-family: "Play", sans-serif;
+    margin-top: 120px;
+    font-size: 20px;
+    margin-left: 50px;
+  }
+  .content .contact .container_content .p-contact p {
+    padding-top: -5px;
+  }
+  .content .contact .container_content .p-contact1 {
+    position: absolute;
+    color: #ffffff;
+    font-family: "Play", sans-serif;
+    margin-top: 120px;
+    font-size: 20px;
+    margin-left: 715px;
+    width: 290px;
+  }
+  .content .futer {
+    background-color: #000;
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    margin-top: 400px;
+  }
+  .content .futer p {
+    color: #919191;
+    font-size: 15px;
+    margin-top: 40px;
+    margin-left: 50px;
+  }
+}
+@media (max-width: 700px) {
+  .content {
+    /*слайдер*/
+  }
+  .content .Glavna1 {
+    height: 700px;
+    padding: 18px 0 0;
+    position: relative;
+    background-image: url("https://mskcrossfit.ru/wp-content/uploads/2017/03/download.jpg");
+  }
+  .content .gl {
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .content .Glavnap1 {
+    margin-left: 85px;
+    margin-top: 310px;
+    color: rgb(232, 43, 43);
+    font-size: 36px;
+    width: 300px;
+    text-align: center;
+    position: absolute;
+    font-style: normal;
+    font-weight: 700;
+    font-family: "Play", sans-serif;
+  }
+  .content .Glavnap2 {
+    color: rgb(224, 54, 54);
+    margin-left: 160px;
+    margin-top: 450px;
+    position: absolute;
+    font-size: 18px;
+    font-weight: 700;
+    font-style: normal;
+    font-family: "Play", sans-serif;
+  }
+  .content .button_glav {
+    position: absolute;
+    width: 203px;
+    height: 37px;
+    background: #ff2f2f;
+    border-radius: 31px;
+    margin-top: 520px;
+    border: none;
+    margin-left: 150px;
+    font-family: "Play", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+  }
+  .content .section {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .content .section .bloc1 {
+    -webkit-box-flex: 40%;
+        -ms-flex: 40%;
+            flex: 40%;
+    padding: 0px;
+    margin-bottom: -20px;
+    height: 600px;
+    padding-left: 70px;
+    background: #000000;
+  }
+  .content .section .bloc1 button {
+    position: absolute;
+    font-family: "Play", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    background: #ff2f2f;
+    border-radius: 31px;
+    width: 203px;
+    height: 37px;
+    margin-left: -45px;
+    margin-top: 15px;
+  }
+  .content .section .bloc1 .img_bloc1 {
+    height: 201px;
+    padding: 18px 0 0;
+    margin-left: -80px;
+    margin-top: -620px;
+    z-index: 1;
+    position: relative;
+    background-image: url("https://mskcrossfit.ru/wp-content/uploads/2017/03/about2.jpg");
+  }
+  .content .section .bloc1 .rf {
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .content .section .bloc1 h4 {
+    color: aliceblue;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    margin-top: 20px;
+    color: #919191;
+    position: absolute;
+    margin-left: -40px;
+    font-family: "Play", sans-serif;
+    z-index: 9;
+  }
+  .content .section .bloc1 h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 31px;
+    position: absolute;
+    color: #ffffff;
+    width: 200px;
+    margin-top: 250px;
+    margin-left: -40px;
+    font-family: "Play", sans-serif;
+  }
+  .content .section .bloc1 p {
+    font-weight: 400;
+    font-size: 16px;
+    color: #e0e0e0;
+    position: relative;
+    margin-top: 330px;
+    font-family: "Play", sans-serif;
+    margin-left: -40px;
+    margin-right: 40px;
+    display: block;
+  }
+  .content .slider__wrapper {
+    overflow: hidden;
+    margin-top: -650px;
+    height: 510px;
+    position: relative;
+    z-index: 45;
+  }
+  .content .slider__item {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+            flex: 0 0 100%;
+    max-width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 7rem;
+    position: relative;
+  }
+  .content .slider__item .sclae___img__icon {
+    position: absolute;
+    margin-top: -170px;
+  }
+  .content .slider__item .scale_img {
+    display: inline-block;
+    /* Строчно-блочный элемент */
+    overflow: hidden;
+    /* Скрываем всё за контуром */
+  }
+  .content .slider__item .scale_img img {
+    position: relative;
+    -webkit-transition: 0.2s;
+    transition: 0.2s;
+    /* Время эффекта */
+    display: block;
+    /* Убираем небольшой отступ снизу */
+  }
+  .content .slider__item .scale_img img:hover {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+    background-color: #ff2f2f;
+  }
+  .content .slider__item h1 {
+    font-size: 20px;
+    position: absolute;
+    width: 270px;
+    margin-top: 70px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: "Play", sans-serif;
+  }
+  .content .slider__item p {
+    font-size: 15px;
+    color: #ffffff;
+    position: absolute;
+    text-align: center;
+    width: 290px;
+    margin-top: 210px;
+  }
+  .content .slider__control {
+    background-color: rgba(114, 114, 114, 0.601);
+    z-index: 46;
+  }
+  .content .swiper {
+    width: 100%;
+    height: 588px;
+    margin-top: -90px;
+    position: absolute;
+  }
+  .content .swiper-slide .section {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .content .swiper-slide .section .bloc2 {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    padding: 0px;
+    margin-bottom: 40px;
+    height: 590px;
+    background-color: #f32323;
+    margin-top: 70px;
+    z-index: 50;
+    cursor: pointer;
+  }
+  .content .swiper-slide .section .bloc2 h2 {
+    font-size: 10px;
+    margin-top: 50px;
+    color: #000;
+    color: rgba(216, 216, 216, 0.64);
+    font-weight: 700;
+    font-size: 12px;
+    margin-left: 70px;
+  }
+  .content .swiper-slide .section .bloc2 h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    color: #ffffff;
+    margin-left: 70px;
+    margin-top: 50px;
+  }
+  .content .swiper-slide .section .bloc2 p {
+    font-style: normal;
+    font-weight: 200;
+    font-size: 20px;
+    margin-left: 70px;
+    margin-right: 70px;
+    color: #ffffff;
+  }
+  .content .swiper-slide .section .bloc2 .button_glav3 {
+    position: absolute;
+    font-family: "Play", sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    background: #000000;
+    border-radius: 31px;
+    width: 203px;
+    color: #ff0000;
+    height: 37px;
+    margin-left: 80px;
+    margin-top: 15px;
+    cursor: pointer;
+  }
+  .content .swiper-slide .section .bloc2 .img_bloc1 {
+    height: 500px;
+    padding: 18px 0 0;
+    position: relative;
+    background-image: url("https://mskcrossfit.ru/wp-content/uploads/2017/03/cf.jpg");
+  }
+  .content .swiper-slide .section .bloc2 .img_bloc2 {
+    height: 500px;
+    padding: 18px 0 0;
+    position: relative;
+    background-image: url("https://sun2.ufanet.userapi.com/s/v1/ig2/F1s8hn7BXn0SfRyC5IQDXhh9QrOD7JkvGhRqggeL6huffJNw8JeWrWz5UckfzU6dkNUlA17f0VkjAab6nrf6Wbcq.jpg?size=633x477&quality=96&type=album");
+  }
+  .content .swiper-slide .section .bloc2 .img_bloc3 {
+    height: 500px;
+    padding: 18px 0 0;
+    position: relative;
+    background-image: url("https://sun9-north.userapi.com/sun9-85/s/v1/ig2/Vo3_pLayTsGDN1YdFjVW5zHFyjdwUO2gMv8UPMF0d1ToeVngNlb4Y6SHvd0VbqbKupcYGJKWwCcDVTJEBNaiwHuB.jpg?size=633x477&quality=96&type=album");
+  }
+  .content .swiper-slide .section .bloc2 .img_bloc4 {
+    height: 500px;
+    padding: 18px 0 0;
+    position: relative;
+    background-image: url("https://sun1.ufanet.userapi.com/s/v1/ig2/SVdgO_kXfOq01c2_Q1Cm9SASVi88d-gXvL-LRqBaxHbqCAlVQQzhBZj7G5zhY2WUdbi0d7G4OoZA1vmhkFD-Phaz.jpg?size=633x477&quality=96&type=album");
+  }
+  .content .swiper-slide .section .bloc2 .img_bloc5 {
+    height: 500px;
+    padding: 18px 0 0;
+    position: relative;
+    background-image: url("https://sun1.ufanet.userapi.com/s/v1/ig2/bY_Dtss0Xg9JfXfW45wNQ3LR_exQD5Hn2HVbg_Sozg08YVNeUnY0m80aJr7VSmxFHord8I2wl13wmSYFt56sgAwC.jpg?size=633x477&quality=96&type=album");
+  }
+  .content .swiper-slide .section .bloc2 .img_bloc6 {
+    height: 500px;
+    padding: 18px 0 0;
+    position: relative;
+    background-image: url("https://sun2.ufanet.userapi.com/s/v1/ig2/4JRke4-aSwAHO-oAcHl6yaRQ8u54xwA3FcAOISKQ23WXhNdP2dDaYVppRfHS2WStJxqWd4IAc0Pz1nxL6BOWdw-c.jpg?size=633x477&quality=96&type=album");
+  }
+  .content .swiper-slide .section .bloc2 .img_bloc7 {
+    height: 500px;
+    padding: 18px 0 0;
+    position: relative;
+    background-image: url("https://mskcrossfit.ru/wp-content/uploads/2017/03/about2.jpg");
+  }
+  .content .swiper-slide .section .bloc2 .rf {
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .content .swiper-pagination {
+    margin-left: 170px;
+    margin-top: -40px;
+    position: relative;
+    z-index: 4;
+  }
+  .content .swiper .swiper-pagination-bullet {
+    width: 10px;
+    height: 10px;
+    border: 5px solid #ffffff;
+    background-color: #bebebe;
+  }
+  .content .swiper .swiper-button-disabled {
+    color: #000;
+  }
+  .content .bloc_content .section {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .content .bloc_content .section .bloc3 {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    padding: 0px;
+    height: 390px;
+    background-color: #232323;
+    margin-top: 498px;
+    z-index: 5;
+    cursor: pointer;
+  }
+  .content .bloc_content .section .bloc3 h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    width: 100px;
+    position: relative;
+    margin-top: 35px;
+    color: #ffffff;
+    font-family: "Play", sans-serif;
+    margin-left: 85px;
+    margin-right: 50px;
+  }
+  .content .bloc_content .section .bloc3 .crug {
+    position: absolute;
+    width: 15px;
+    height: 13px;
+    background: #ff4343;
+    border-radius: 10px;
+    margin-top: 5px;
+    margin-left: 50px;
+  }
+  .content .bloc_content .section .bloc3 p {
+    color: #ffffff;
+    font-size: 20px;
+    margin-left: 85px;
+    margin-top: 85px;
+  }
+  .content .bloc_content .section .bloc3 .text_bloc3 {
+    margin-bottom: -45px;
+  }
+  .content .bloc-flex {
+    background-color: #000000;
+    height: 455px;
+  }
+  .content .bloc-flex .container_flex {
+    max-width: 1180px;
+    margin: 0px auto;
+    padding: 0px 5px;
+  }
+  .content .bloc-flex .container_flex .flex-bloc1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .content .bloc-flex .container_flex .flex-bloc1 .flex_bloc_1 {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    padding: 0px;
+    margin-left: 10px;
+    height: 490px;
+    margin-right: 15px;
+    background: #8ee391;
+    z-index: 10;
+    margin-top: -20px;
+  }
+  .content .bloc-flex .container_flex .flex-bloc1 .flex_bloc_1 .img-flex {
+    position: absolute;
+    margin-top: -320px;
+    margin-left: 150px;
+  }
+  .content .bloc-flex .container_flex .flex-bloc1 .flex_bloc_1 h1 {
+    position: absolute;
+    font-size: 30px;
+    margin-top: -220px;
+    margin-left: 145px;
+    font-weight: 700;
+    color: #ffffff;
+    font-family: "Play", sans-serif;
+  }
+  .content .bloc-flex .container_flex .flex-bloc1 .flex_bloc_1 .h1 {
+    position: absolute;
+    font-size: 30px;
+    margin-top: -220px;
+    margin-left: 105px;
+    font-weight: 700;
+    color: #ffffff;
+  }
+  .content .bloc-flex .container_flex .flex-bloc1 .flex_bloc_1 .h2 {
+    position: absolute;
+    font-size: 30px;
+    margin-top: -220px;
+    margin-left: 120px;
+    font-weight: 700;
+    color: #ffffff;
+  }
+  .content .bloc-flex .container_flex .flex-bloc1 .flex_bloc_1 p {
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    position: relative;
+    margin-top: -165px;
+    color: #ffffff;
+  }
+  .content .contact {
+    background-color: #232323;
+    width: 100%;
+    position: absolute;
+    height: 400px;
+  }
+  .content .contact .container_content {
+    max-width: 1180px;
+    margin: 0px auto;
+    padding: 0px 5px;
+  }
+  .content .contact .container_content h1 {
+    font-weight: 700;
+    font-size: 48px;
+    color: #ffffff;
+    font-family: "Play", sans-serif;
+    margin-top: 50px;
+    margin-left: 460px;
+    position: absolute;
+  }
+  .content .contact .container_content .p-contact {
+    position: absolute;
+    color: #ffffff;
+    font-family: "Play", sans-serif;
+    margin-top: 120px;
+    font-size: 25px;
+  }
+  .content .contact .container_content .p-contact p {
+    padding-top: -5px;
+  }
+  .content .contact .container_content .p-contact1 {
+    position: absolute;
+    color: #ffffff;
+    font-family: "Play", sans-serif;
+    margin-top: 120px;
+    font-size: 25px;
+    margin-left: 749px;
+    width: 320px;
+  }
+  .content .futer {
+    background-color: #000;
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    margin-top: 400px;
+  }
+  .content .futer p {
+    color: #919191;
+    font-size: 15px;
+    margin-top: 40px;
+    margin-left: 20px;
+  }
 }
