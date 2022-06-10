@@ -1800,7 +1800,7 @@ header:before {
   display: -ms-flexbox;
   display: flex;
 }
-.content-tren .section .bloc1_tren {
+.content-tren .section .bloc1_tren3 {
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
@@ -1810,18 +1810,18 @@ header:before {
   margin-top: 130px;
   background: #000000;
 }
-.content-tren .section .bloc1_tren .img_bloc1_tren3 {
+.content-tren .section .bloc1_tren3 .img_bloc1_tren3 {
   height: 502px;
   padding: 18px 0 0;
   position: relative;
   background-image: url("https://sun9-88.userapi.com/s/v1/ig2/zRiA0WL-xNKoND9P9FmUsELjoLNGgeu33Ro-1X_d_p7IrP_sm615RGsdBCO8igWWFvSTWZ2Ta_KXCrBhzRvs4UZy.jpg?size=500x299&quality=96&type=album");
 }
-.content-tren .section .bloc1_tren .rf {
+.content-tren .section .bloc1_tren3 .rf {
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
 }
-.content-tren .section .bloc1_tren h4 {
+.content-tren .section .bloc1_tren3 h4 {
   color: aliceblue;
   font-style: normal;
   font-weight: 700;
@@ -1832,7 +1832,7 @@ header:before {
   margin-left: 85px;
   font-family: "Play", sans-serif;
 }
-.content-tren .section .bloc1_tren h1 {
+.content-tren .section .bloc1_tren3 h1 {
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -1843,7 +1843,7 @@ header:before {
   margin-left: 85px;
   font-family: "Play", sans-serif;
 }
-.content-tren .section .bloc1_tren p {
+.content-tren .section .bloc1_tren3 p {
   font-weight: 400;
   font-size: 20px;
   color: #e0e0e0;
@@ -1859,7 +1859,7 @@ header:before {
   display: -ms-flexbox;
   display: flex;
 }
-.content-tren .section .bloc1_tren {
+.content-tren .section .bloc1_tren2 {
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
@@ -1869,18 +1869,18 @@ header:before {
   margin-top: 130px;
   background: #000000;
 }
-.content-tren .section .bloc1_tren .img_bloc1_tren2 {
+.content-tren .section .bloc1_tren2 .img_bloc1_tren2 {
   height: 502px;
   padding: 18px 0 0;
   position: relative;
   background-image: url("https://skrodina.ru/wp-content/uploads/2019/04/YzcMyrkel3w-1200x600.jpg");
 }
-.content-tren .section .bloc1_tren .rf {
+.content-tren .section .bloc1_tren2 .rf {
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
 }
-.content-tren .section .bloc1_tren h4 {
+.content-tren .section .bloc1_tren2 h4 {
   color: aliceblue;
   font-style: normal;
   font-weight: 700;
@@ -1891,7 +1891,7 @@ header:before {
   margin-left: 85px;
   font-family: "Play", sans-serif;
 }
-.content-tren .section .bloc1_tren h1 {
+.content-tren .section .bloc1_tren2 h1 {
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -1902,7 +1902,7 @@ header:before {
   margin-left: 85px;
   font-family: "Play", sans-serif;
 }
-.content-tren .section .bloc1_tren p {
+.content-tren .section .bloc1_tren2 p {
   font-weight: 400;
   font-size: 20px;
   color: #e0e0e0;
@@ -1954,7 +1954,7 @@ header:before {
     font-family: "Play", sans-serif;
   }
   .content-tren .rf {
-    background-position: 30%;
+    background-position: 50%;
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -1970,16 +1970,17 @@ header:before {
         -ms-flex: 40%;
             flex: 40%;
     padding: 0px;
-    margin-bottom: -130px;
-    height: 450px;
-    margin-top: 130px;
-    background-color: #000;
+    margin-top: 20px;
+    height: 460px;
+    padding-left: 70px;
+    background: #000000;
   }
   .content-tren .section .bloc1_tren .img_bloc1_tren {
-    height: 100px;
-    margin-top: -1px;
-    margin-left: -250px;
+    height: 140px;
     padding: 18px 0 0;
+    margin-left: -80px;
+    margin-top: -240px;
+    z-index: 1;
     position: relative;
     background-image: url("https://typical-moscow.ru/wp-content/uploads/2016/06/crossfit2.jpg");
   }
@@ -1991,35 +1992,184 @@ header:before {
   .content-tren .section .bloc1_tren h4 {
     font-style: normal;
     font-weight: 700;
-    font-size: 18px;
-    margin-top: 10px;
+    font-size: 19px;
+    margin-top: 150px;
     color: #ffffff;
     position: absolute;
-    margin-left: 15px;
+    margin-left: -40px;
     font-family: "Play", sans-serif;
-    z-index: 10;
+    z-index: 9;
   }
   .content-tren .section .bloc1_tren h1 {
     font-style: normal;
     font-weight: 700;
-    font-size: 25px;
+    font-size: 31px;
     position: absolute;
     color: #ffffff;
-    width: 450px;
-    margin-top: 130px;
-    margin-left: 15px;
+    width: 290px;
+    margin-top: 310px;
+    margin-left: -40px;
     font-family: "Play", sans-serif;
   }
   .content-tren .section .bloc1_tren p {
     font-weight: 400;
-    font-size: 15px;
+    font-size: 16px;
     color: #e0e0e0;
     position: relative;
-    margin-top: 200px;
+    margin-top: 370px;
     font-family: "Play", sans-serif;
-    margin-left: 15px;
-    margin-right: -190px;
+    margin-left: -40px;
+    margin-right: 40px;
     display: block;
+  }
+  .content-tren .section {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .content-tren .section .bloc1_tren2 {
+    -webkit-box-flex: 40%;
+        -ms-flex: 40%;
+            flex: 40%;
+    padding: 0px;
+    margin-top: -1px;
+    height: 400px;
+    padding-left: 70px;
+    background: #000000;
+  }
+  .content-tren .section .bloc1_tren2 .img_bloc1_tren2 {
+    height: 140px;
+    padding: 18px 0 0;
+    margin-left: -80px;
+    margin-top: -1px;
+    z-index: 1;
+    position: relative;
+    background-image: url("https://skrodina.ru/wp-content/uploads/2019/04/YzcMyrkel3w-1200x600.jpg");
+  }
+  .content-tren .section .bloc1_tren2 .rf {
+    background-position: 40%;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .content-tren .section .bloc1_tren2 h4 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19px;
+    margin-top: -180px;
+    color: #ffffff;
+    position: absolute;
+    margin-left: -40px;
+    font-family: "Play", sans-serif;
+    z-index: 9;
+  }
+  .content-tren .section .bloc1_tren2 h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 31px;
+    position: absolute;
+    color: #ffffff;
+    width: 340px;
+    margin-top: -80px;
+    margin-left: -40px;
+    font-family: "Play", sans-serif;
+  }
+  .content-tren .section .bloc1_tren2 p {
+    font-weight: 400;
+    font-size: 16px;
+    color: #e0e0e0;
+    position: relative;
+    margin-top: 15px;
+    font-family: "Play", sans-serif;
+    margin-left: -40px;
+    margin-right: 40px;
+    display: block;
+  }
+  .content-tren .section {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .content-tren .section .bloc1_tren3 {
+    -webkit-box-flex: 40%;
+        -ms-flex: 40%;
+            flex: 40%;
+    padding: 0px;
+    margin-top: -1px;
+    height: 320px;
+    padding-left: 70px;
+    background: #000000;
+  }
+  .content-tren .section .bloc1_tren3 .img_bloc1_tren3 {
+    height: 140px;
+    padding: 18px 0 0;
+    margin-left: -80px;
+    margin-top: -190px;
+    z-index: 1;
+    position: relative;
+    background-image: url("https://skrodina.ru/wp-content/uploads/2019/04/YzcMyrkel3w-1200x600.jpg");
+  }
+  .content-tren .section .bloc1_tren3 .rf {
+    background-position: 40%;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .content-tren .section .bloc1_tren3 h4 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19px;
+    margin-top: 50px;
+    color: #ffffff;
+    position: absolute;
+    margin-left: -40px;
+    font-family: "Play", sans-serif;
+    z-index: 9;
+  }
+  .content-tren .section .bloc1_tren3 h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 31px;
+    position: absolute;
+    color: #ffffff;
+    width: 340px;
+    margin-top: 190px;
+    margin-left: -40px;
+    font-family: "Play", sans-serif;
+  }
+  .content-tren .section .bloc1_tren3 p {
+    font-weight: 400;
+    font-size: 16px;
+    color: #e0e0e0;
+    position: relative;
+    margin-top: 250px;
+    font-family: "Play", sans-serif;
+    margin-left: -40px;
+    margin-right: 40px;
+    display: block;
+  }
+  .content-tren .futer_tren {
+    background-color: #000;
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    margin-top: 130px;
+  }
+  .content-tren .futer_tren p {
+    color: #919191;
+    font-size: 12px;
+    margin-top: 40px;
+    margin-left: 20px;
+  }
+  .content-tren .futer_tren hr {
+    height: 1px;
+    width: 100%;
+    border: none;
+    margin-top: -1px;
+    background-color: #6c6c6c;
+    position: absolute;
   }
 }
 .section {
