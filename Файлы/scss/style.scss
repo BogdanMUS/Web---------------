@@ -2331,7 +2331,7 @@ header:before {
 .section {
     display: flex;
 
-    .bloc1_tren {
+    .bloc1_tren3 {
         flex: 1;
         padding: 0px;
         margin-bottom: -130px;
@@ -2417,7 +2417,7 @@ header:before {
 .section {
     display: flex;
 
-    .bloc1_tren {
+    .bloc1_tren2 {
         flex: 1;
         padding: 0px;
         margin-bottom: -130px;
@@ -2472,6 +2472,257 @@ header:before {
             margin-left: 85px;
             margin-right: 50px;
             display: block;
+        }
+    }
+}
+
+//Адавтив телефон страница-2
+@media (max-width: 750px) {
+    .content-tren {
+        .img-tren__1 {
+            height: 502px;
+            padding: 18px 0 0;
+            margin-top: 50px;
+            margin-bottom: -130px;
+            position: relative;
+            background-image: url("https://sun9-83.userapi.com/s/v1/ig2/ab62bD2mfw2Z7UIn1dbsjPglGW_v0SxCKg3jsND5otpjcTVUl3l8TF9aoW9vPKb4E9eQbbV5p5D0-yGQiZbCWmTz.jpg?size=2000x1081&quality=96&type=album");
+            background-repeat: no-repeat;
+
+            h1 {
+                font-size: 70px;
+                position: absolute;
+                color: #ffffff;
+                margin-left: 90px;
+                margin-top: 200px;
+                font-family: "Play", sans-serif;
+            }
+        }
+        .rf {
+            background-position: 30%;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .section {
+            display: flex;
+            flex-wrap: wrap;
+
+            .bloc1_tren {
+                flex: 40%;
+                padding: 0px;
+                margin-top: 20px;
+                height: 460px;
+                padding-left: 70px;
+                background: #000000;
+
+                .img_bloc1_tren__1 {
+                    height: 140px;
+                    padding: 18px 0 0;
+                    margin-left: -80px;
+                    margin-top: -240px;
+                    z-index: 1;
+                    position: relative;
+                    background-image: url("https://sun9-13.userapi.com/s/v1/ig2/5dB-xAaakWvoEhTsYUMXDPmhecC4_1u0rP5KSo5iByTsBFW4S4I9hDc5SaTraf-ICIsHBSOpPIUAn75olPxFdJ-o.jpg?size=2000x1081&quality=96&type=album");
+                }
+
+                .rf {
+                    background-position: 50%;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                }
+
+                h4 {
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 19px;
+                    margin-top: 150px;
+                    color: #ffffff;
+                    position: absolute;
+                    margin-left: -40px;
+                    font-family: "Play", sans-serif;
+                    z-index: 9;
+                }
+
+                h1 {
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 31px;
+                    position: absolute;
+                    color: #ffffff;
+                    width: 290px;
+                    margin-top: 310px;
+                    margin-left: -40px;
+                    font-family: "Play", sans-serif;
+                }
+
+                p {
+                    font-weight: 400;
+                    font-size: 16px;
+                    color: #e0e0e0;
+                    position: relative;
+                    margin-top: 370px;
+                    font-family: "Play", sans-serif;
+                    margin-left: -40px;
+                    margin-right: 40px;
+                    display: block;
+                }
+            }
+        }
+
+        .section {
+            display: flex;
+            flex-wrap: wrap;
+
+            .bloc1_tren2 {
+                flex: 40%;
+                padding: 0px;
+                margin-top: -1px;
+                height: 460px;
+                padding-left: 70px;
+                background: #000000;
+
+                .img_bloc1_tren2__1 {
+                    height: 140px;
+                    padding: 18px 0 0;
+                    margin-left: -80px;
+                    margin-top: -1px;
+                    z-index: 1;
+                    position: relative;
+                    background-image: url("https://sun9-55.userapi.com/s/v1/ig2/5TkL4HDANi4_Aeyjz1h8crdvMid07uZzluqxrNZ7xl4T2QczteHvvOCMGQnv4wu9GWaoh-HoLFynrdb4havUBgQQ.jpg?size=2000x1081&quality=96&type=album");
+                }
+
+                .rf {
+                    background-position: 40%;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                }
+
+                h4 {
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 19px;
+                    margin-top: -260px;
+                    color: #ffffff;
+                    position: absolute;
+                    margin-left: -40px;
+                    font-family: "Play", sans-serif;
+                    z-index: 9;
+                }
+
+                h1 {
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 31px;
+                    position: absolute;
+                    color: #ffffff;
+                    width: 340px;
+                    margin-top: -110px;
+                    margin-left: -40px;
+                    font-family: "Play", sans-serif;
+                }
+
+                p {
+                    font-weight: 400;
+                    font-size: 16px;
+                    color: #e0e0e0;
+                    position: relative;
+                    margin-top: -10px;
+                    font-family: "Play", sans-serif;
+                    margin-left: -40px;
+                    margin-right: 40px;
+                    display: block;
+                }
+            }
+        }
+
+        .section {
+            display: flex;
+            flex-wrap: wrap;
+
+            .bloc1_tren3 {
+                flex: 40%;
+                padding: 0px;
+                margin-top: -1px;
+                height: 360px;
+                padding-left: 70px;
+                background: #000000;
+
+                .img_bloc1_tren3__1 {
+                    height: 140px;
+                    padding: 18px 0 0;
+                    margin-left: -80px;
+                    margin-top: -230px;
+                    z-index: 1;
+                    position: relative;
+                    background-image: url("https://sun9-86.userapi.com/s/v1/ig2/Phr1rD-wyBQ7dy3C5IN71AD-5FLAf1W0AjMypcibipKTJLgs1He_bkArBtYmxBvktN7LrACj3yQMl8F4tQWeFoUG.jpg?size=2000x1081&quality=96&type=album");
+                }
+
+                .rf {
+                    background-position: 40%;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                }
+
+                h4 {
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 19px;
+                    margin-top: 50px;
+                    color: #ffffff;
+                    position: absolute;
+                    margin-left: -40px;
+                    font-family: "Play", sans-serif;
+                    z-index: 9;
+                }
+
+                h1 {
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 31px;
+                    position: absolute;
+                    color: #ffffff;
+                    width: 340px;
+                    margin-top: 190px;
+                    margin-left: -40px;
+                    font-family: "Play", sans-serif;
+                }
+
+                p {
+                    font-weight: 400;
+                    font-size: 16px;
+                    color: #e0e0e0;
+                    position: relative;
+                    margin-top: 250px;
+                    font-family: "Play", sans-serif;
+                    margin-left: -40px;
+                    margin-right: 40px;
+                    display: block;
+                }
+            }
+        }
+
+        .futer_tren {
+            background-color: #000;
+            width: 100%;
+            height: 100px;
+            position: absolute;
+            margin-top: 130px;
+
+            p {
+                color: #919191;
+                font-size: 12px;
+                margin-top: 40px;
+                margin-left: 20px;
+            }
+
+            hr {
+                height: 1px;
+                width: 100%;
+                border: none;
+                margin-top: -1px;
+                background-color: #6c6c6c;
+                position: absolute;
+            }
         }
     }
 }
@@ -2567,7 +2818,7 @@ header:before {
 .section {
     display: flex;
 
-    .bloc1_tren__2 {
+    .bloc1_tren__3 {
         flex: 1;
         padding: 0px;
         margin-bottom: -130px;
@@ -2629,7 +2880,7 @@ header:before {
 .section {
     display: flex;
 
-    .bloc1_tren {
+    .bloc1_tren2 {
         flex: 1;
         padding: 0px;
         margin-bottom: -130px;
@@ -2684,6 +2935,257 @@ header:before {
             margin-left: 85px;
             margin-right: 50px;
             display: block;
+        }
+    }
+}
+
+//Адавтив телефон страница-3
+@media (max-width: 750px) {
+    .content-tren {
+        .img-tren__2 {
+            height: 502px;
+            padding: 18px 0 0;
+            margin-top: 50px;
+            margin-bottom: -130px;
+            position: relative;
+            background-image: url("https://sun9-22.userapi.com/s/v1/ig2/mIBwY5pC6YX5eHvttdQyno30cEAsuFuN3oMVBbmkjfPVuML8Trrtqj94G_k4hXeOFqzPsjX8aTR-i3QLYipopvq3.jpg?size=2000x1081&quality=96&type=album");
+            background-repeat: no-repeat;
+
+            h1 {
+                font-size: 50px;
+                position: absolute;
+                color: #ffffff;
+                margin-left: 90px;
+                margin-top: 200px;
+                font-family: "Play", sans-serif;
+            }
+        }
+        .rf {
+            background-position: 30%;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .section {
+            display: flex;
+            flex-wrap: wrap;
+
+            .bloc1_tren__2 {
+                flex: 40%;
+                padding: 0px;
+                margin-top: 20px;
+                height: 460px;
+                padding-left: 70px;
+                background: #000000;
+
+                .img_bloc1_tren__2 {
+                    height: 140px;
+                    padding: 18px 0 0;
+                    margin-left: -80px;
+                    margin-top: -240px;
+                    z-index: 1;
+                    position: relative;
+                    background-image: url("https://sun1.ufanet.userapi.com/s/v1/ig2/3AAZZRLVRhr0ITTa3spkOdAcmLu1usCAbVN0MjRtTy0qAwCT9rdzKGo1hKQyjY_8-YShUcu98U7tUrMFdrvkDO1Z.jpg?size=2000x1081&quality=96&type=album");
+                }
+
+                .rf {
+                    background-position: 50%;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                }
+
+                h4 {
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 19px;
+                    margin-top: 150px;
+                    color: #ffffff;
+                    position: absolute;
+                    margin-left: -40px;
+                    font-family: "Play", sans-serif;
+                    z-index: 9;
+                }
+
+                h1 {
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 31px;
+                    position: absolute;
+                    color: #ffffff;
+                    width: 290px;
+                    margin-top: 310px;
+                    margin-left: -40px;
+                    font-family: "Play", sans-serif;
+                }
+
+                p {
+                    font-weight: 400;
+                    font-size: 16px;
+                    color: #e0e0e0;
+                    position: relative;
+                    margin-top: 400px;
+                    font-family: "Play", sans-serif;
+                    margin-left: -40px;
+                    margin-right: 40px;
+                    display: block;
+                }
+            }
+        }
+
+        .section {
+            display: flex;
+            flex-wrap: wrap;
+
+            .bloc1_tren2 {
+                flex: 40%;
+                padding: 0px;
+                margin-top: -1px;
+                height: 460px;
+                padding-left: 70px;
+                background: #000000;
+
+                .img_bloc1_tren2__2 {
+                    height: 140px;
+                    padding: 18px 0 0;
+                    margin-left: -80px;
+                    margin-top: -1px;
+                    z-index: 1;
+                    position: relative;
+                    background-image: url("https://sun9-24.userapi.com/s/v1/ig2/aP3cD-I5wU3lv2d928kugwhGdwUA_QmuSVN4kq3qYaFy2vgxppsbVH-QbFdqaC_UYlhxPaON81UpkZPYOoXuuyCc.jpg?size=2000x1081&quality=96&type=album");
+                }
+
+                .rf {
+                    background-position: 40%;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                }
+
+                h4 {
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 19px;
+                    margin-top: -260px;
+                    color: #ffffff;
+                    position: absolute;
+                    margin-left: -40px;
+                    font-family: "Play", sans-serif;
+                    z-index: 9;
+                }
+
+                h1 {
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 31px;
+                    position: absolute;
+                    color: #ffffff;
+                    width: 340px;
+                    margin-top: -110px;
+                    margin-left: -40px;
+                    font-family: "Play", sans-serif;
+                }
+
+                p {
+                    font-weight: 400;
+                    font-size: 16px;
+                    color: #e0e0e0;
+                    position: relative;
+                    margin-top: -10px;
+                    font-family: "Play", sans-serif;
+                    margin-left: -40px;
+                    margin-right: 40px;
+                    display: block;
+                }
+            }
+        }
+
+        .section {
+            display: flex;
+            flex-wrap: wrap;
+
+            .bloc1_tren__3 {
+                flex: 40%;
+                padding: 0px;
+                margin-top: -1px;
+                height: 360px;
+                padding-left: 70px;
+                background: #000000;
+
+                .img_bloc1_tren3__2 {
+                    height: 140px;
+                    padding: 18px 0 0;
+                    margin-left: -80px;
+                    margin-top: -230px;
+                    z-index: 1;
+                    position: relative;
+                    background-image: url("https://sun9-45.userapi.com/s/v1/ig2/gKxLN24sdiBgJVuqziutx4ZnsB0qtuhmcpPfiExudUctrliJC_xF9ZVQBJFJBw8VZwwFGYXIZtYNM8XrPSY626TN.jpg?size=1999x1081&quality=96&type=album");
+                }
+
+                .rf {
+                    background-position: 40%;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                }
+
+                h4 {
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 19px;
+                    margin-top: 50px;
+                    color: #ffffff;
+                    position: absolute;
+                    margin-left: -40px;
+                    font-family: "Play", sans-serif;
+                    z-index: 9;
+                }
+
+                h1 {
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 31px;
+                    position: absolute;
+                    color: #ffffff;
+                    width: 340px;
+                    margin-top: 190px;
+                    margin-left: -40px;
+                    font-family: "Play", sans-serif;
+                }
+
+                p {
+                    font-weight: 400;
+                    font-size: 16px;
+                    color: #e0e0e0;
+                    position: relative;
+                    margin-top: 290px;
+                    font-family: "Play", sans-serif;
+                    margin-left: -40px;
+                    margin-right: 40px;
+                    display: block;
+                }
+            }
+        }
+
+        .futer_tren {
+            background-color: #000;
+            width: 100%;
+            height: 100px;
+            position: absolute;
+            margin-top: 130px;
+
+            p {
+                color: #919191;
+                font-size: 12px;
+                margin-top: 40px;
+                margin-left: 20px;
+            }
+
+            hr {
+                height: 1px;
+                width: 100%;
+                border: none;
+                margin-top: -1px;
+                background-color: #6c6c6c;
+                position: absolute;
+            }
         }
     }
 }
@@ -2779,7 +3281,7 @@ header:before {
 .section {
     display: flex;
 
-    .bloc1_tren {
+    .bloc1_tren3 {
         flex: 1;
         padding: 0px;
         margin-bottom: -130px;
@@ -2841,7 +3343,7 @@ header:before {
 .section {
     display: flex;
 
-    .bloc1_tren {
+    .bloc1_tren2 {
         flex: 1;
         padding: 0px;
         margin-bottom: -130px;
@@ -2896,6 +3398,256 @@ header:before {
             margin-left: 85px;
             margin-right: 50px;
             display: block;
+        }
+    }
+}
+//Адаптив страница4_______________________________________________________________________________________
+@media (max-width: 750px) {
+    .content-tren {
+        .img-tren__3 {
+            height: 502px;
+            padding: 18px 0 0;
+            margin-top: 50px;
+            margin-bottom: -130px;
+            position: relative;
+            background-image: url("https://sun9-31.userapi.com/s/v1/ig2/0M5Of2_eZK7npp8gZx1aWgxRjknXnzMyuPoTyR1BSJjvO0PBiRLjFsN8fBIUzDaqxXQkMPl-A6gsrLpoOZNS9bN6.jpg?size=2000x1081&quality=96&type=album");
+            background-repeat: no-repeat;
+
+            h1 {
+                font-size: 60px;
+                position: absolute;
+                color: #ffffff;
+                margin-left: 40px;
+                margin-top: 200px;
+                font-family: "Play", sans-serif;
+            }
+        }
+        .rf {
+            background-position: 30%;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .section {
+            display: flex;
+            flex-wrap: wrap;
+
+            .bloc1_tren {
+                flex: 40%;
+                padding: 0px;
+                margin-top: 20px;
+                height: 480px;
+                padding-left: 70px;
+                background: #000000;
+
+                .img_bloc1_tren__3 {
+                    height: 140px;
+                    padding: 18px 0 0;
+                    margin-left: -80px;
+                    margin-top: -260px;
+                    z-index: 1;
+                    position: relative;
+                    background-image: url("https://sun9-88.userapi.com/s/v1/ig2/cQKaBqK5cSewd6RrPgMe7gOxQ4_Hc7U9Bg1UENBWxovMLD4NrsxJLh3zgKzDk-0iaSVfePlor9Wy3a47EoVyRjjA.jpg?size=2000x1081&quality=96&type=album");
+                }
+
+                .rf {
+                    background-position: 50%;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                }
+
+                h4 {
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 19px;
+                    margin-top: 150px;
+                    color: #ffffff;
+                    position: absolute;
+                    margin-left: -40px;
+                    font-family: "Play", sans-serif;
+                    z-index: 9;
+                }
+
+                h1 {
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 31px;
+                    position: absolute;
+                    color: #ffffff;
+                    width: 290px;
+                    margin-top: 310px;
+                    margin-left: -40px;
+                    font-family: "Play", sans-serif;
+                }
+
+                p {
+                    font-weight: 400;
+                    font-size: 16px;
+                    color: #e0e0e0;
+                    position: relative;
+                    margin-top: 400px;
+                    font-family: "Play", sans-serif;
+                    margin-left: -40px;
+                    margin-right: 40px;
+                    display: block;
+                }
+            }
+        }
+
+        .section {
+            display: flex;
+            flex-wrap: wrap;
+
+            .bloc1_tren2 {
+                flex: 40%;
+                padding: 0px;
+                margin-top: -1px;
+                height: 460px;
+                padding-left: 70px;
+                background: #000000;
+
+                .img_bloc1_tren2__3 {
+                    height: 140px;
+                    padding: 18px 0 0;
+                    margin-left: -80px;
+                    margin-top: -1px;
+                    z-index: 1;
+                    position: relative;
+                    background-image: url("https://sun1.ufanet.userapi.com/s/v1/ig2/lSUKqACWXxtg8jPCPbhdAEdVDDltnJH7m0HtNgXP6_7rlUD8kCxNhFwLpqLs-YW45OOcNUkKb5e2bIfWwShuAsX1.jpg?size=2000x1081&quality=96&type=album");
+                }
+
+                .rf {
+                    background-position: 40%;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                }
+
+                h4 {
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 19px;
+                    margin-top: -260px;
+                    color: #ffffff;
+                    position: absolute;
+                    margin-left: -40px;
+                    font-family: "Play", sans-serif;
+                    z-index: 9;
+                }
+
+                h1 {
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 31px;
+                    position: absolute;
+                    color: #ffffff;
+                    width: 340px;
+                    margin-top: -110px;
+                    margin-left: -40px;
+                    font-family: "Play", sans-serif;
+                }
+
+                p {
+                    font-weight: 400;
+                    font-size: 16px;
+                    color: #e0e0e0;
+                    position: relative;
+                    margin-top: -10px;
+                    font-family: "Play", sans-serif;
+                    margin-left: -40px;
+                    margin-right: 40px;
+                    display: block;
+                }
+            }
+        }
+
+        .section {
+            display: flex;
+            flex-wrap: wrap;
+
+            .bloc1_tren3 {
+                flex: 40%;
+                padding: 0px;
+                margin-top: -1px;
+                height: 360px;
+                padding-left: 70px;
+                background: #000000;
+
+                .img_bloc1_tren3__3 {
+                    height: 140px;
+                    padding: 18px 0 0;
+                    margin-left: -80px;
+                    margin-top: -230px;
+                    z-index: 1;
+                    position: relative;
+                    background-image: url("https://sun1.ufanet.userapi.com/s/v1/ig2/oZN3xNDwbk_A_I_lwskeODwzunFjLAIhA3hDrFRHLoKHtHWZysFLMYMobpR3wJ0qLnAwYcgc9kyyRnDTfqTDyHxI.jpg?size=2000x1081&quality=96&type=album");
+                }
+
+                .rf {
+                    background-position: 40%;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                }
+
+                h4 {
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 19px;
+                    margin-top: 50px;
+                    color: #ffffff;
+                    position: absolute;
+                    margin-left: -40px;
+                    font-family: "Play", sans-serif;
+                    z-index: 9;
+                }
+
+                h1 {
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 31px;
+                    position: absolute;
+                    color: #ffffff;
+                    width: 320px;
+                    margin-top: 190px;
+                    margin-left: -40px;
+                    font-family: "Play", sans-serif;
+                }
+
+                p {
+                    font-weight: 400;
+                    font-size: 16px;
+                    color: #e0e0e0;
+                    position: relative;
+                    margin-top: 290px;
+                    font-family: "Play", sans-serif;
+                    margin-left: -40px;
+                    margin-right: 40px;
+                    display: block;
+                }
+            }
+        }
+
+        .futer_tren {
+            background-color: #000;
+            width: 100%;
+            height: 100px;
+            position: absolute;
+            margin-top: 130px;
+
+            p {
+                color: #919191;
+                font-size: 12px;
+                margin-top: 40px;
+                margin-left: 20px;
+            }
+
+            hr {
+                height: 1px;
+                width: 100%;
+                border: none;
+                margin-top: -1px;
+                background-color: #6c6c6c;
+                position: absolute;
+            }
         }
     }
 }
@@ -2991,7 +3743,7 @@ header:before {
 .section {
     display: flex;
 
-    .bloc1_tren {
+    .bloc1_tren3 {
         flex: 1;
         padding: 0px;
         margin-bottom: -130px;
@@ -3053,7 +3805,7 @@ header:before {
 .section {
     display: flex;
 
-    .bloc1_tren {
+    .bloc1_tren2 {
         flex: 1;
         padding: 0px;
         margin-bottom: -130px;
@@ -3108,6 +3860,257 @@ header:before {
             margin-left: 85px;
             margin-right: 50px;
             display: block;
+        }
+    }
+}
+
+//Адавтив телефон страница-5___________________________________________________________________________________
+@media (max-width: 750px) {
+    .content-tren {
+        .img-tren__4 {
+            height: 502px;
+            padding: 18px 0 0;
+            margin-top: 50px;
+            margin-bottom: -130px;
+            position: relative;
+            background-image: url("https://sun9-27.userapi.com/s/v1/ig2/DYTenJ1kA3Uj79COpbrvt5nCw5sIfeXe1NlLGS0Yy8xAeykVeVWBOv05AikBDPUckBfMGzM8JRPbeyxRXBknajwl.jpg?size=2000x1081&quality=96&type=album");
+            background-repeat: no-repeat;
+
+            h1 {
+                font-size: 70px;
+                position: absolute;
+                color: #ffffff;
+                margin-left: 110px;
+                margin-top: 200px;
+                font-family: "Play", sans-serif;
+            }
+        }
+        .rf {
+            background-position: 55%;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .section {
+            display: flex;
+            flex-wrap: wrap;
+
+            .bloc1_tren {
+                flex: 40%;
+                padding: 0px;
+                margin-top: 20px;
+                height: 480px;
+                padding-left: 70px;
+                background: #000000;
+
+                .img_bloc1_tren__4 {
+                    height: 140px;
+                    padding: 18px 0 0;
+                    margin-left: -80px;
+                    margin-top: -260px;
+                    z-index: 1;
+                    position: relative;
+                    background-image: url("https://sun9-75.userapi.com/s/v1/ig2/6fhmyKMrvZ_oTE4YlpXdMw30EAAUkCaXNxiGjt11ZCqmTvEzc0q0KgQxCujc86GI7xdRg8rJrKujCs6VHH_DBqwI.jpg?size=2000x1081&quality=96&type=album");
+                }
+
+                .rf {
+                    background-position: 50%;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                }
+
+                h4 {
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 19px;
+                    margin-top: 150px;
+                    color: #ffffff;
+                    position: absolute;
+                    margin-left: -40px;
+                    font-family: "Play", sans-serif;
+                    z-index: 9;
+                }
+
+                h1 {
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 31px;
+                    position: absolute;
+                    color: #ffffff;
+                    width: 290px;
+                    margin-top: 310px;
+                    margin-left: -40px;
+                    font-family: "Play", sans-serif;
+                }
+
+                p {
+                    font-weight: 400;
+                    font-size: 16px;
+                    color: #e0e0e0;
+                    position: relative;
+                    margin-top: 370px;
+                    font-family: "Play", sans-serif;
+                    margin-left: -40px;
+                    margin-right: 40px;
+                    display: block;
+                }
+            }
+        }
+
+        .section {
+            display: flex;
+            flex-wrap: wrap;
+
+            .bloc1_tren2 {
+                flex: 40%;
+                padding: 0px;
+                margin-top: -1px;
+                height: 460px;
+                padding-left: 70px;
+                background: #000000;
+
+                .img_bloc1_tren2__4 {
+                    height: 140px;
+                    padding: 18px 0 0;
+                    margin-left: -80px;
+                    margin-top: -1px;
+                    z-index: 1;
+                    position: relative;
+                    background-image: url("https://sun9-3.userapi.com/s/v1/ig2/NsodcbIDRQLfhNf7MLZpTBHhJDSOHb1TLjQTTh96sB9kGc7lRfU8U_uoQgsDV6Y3AwBKT6icvvJmmCUz6WIqkh46.jpg?size=2000x1081&quality=96&type=album");
+                }
+
+                .rf {
+                    background-position: 40%;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                }
+
+                h4 {
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 19px;
+                    margin-top: -260px;
+                    color: #ffffff;
+                    position: absolute;
+                    margin-left: -40px;
+                    font-family: "Play", sans-serif;
+                    z-index: 9;
+                }
+
+                h1 {
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 31px;
+                    position: absolute;
+                    color: #ffffff;
+                    width: 340px;
+                    margin-top: -110px;
+                    margin-left: -40px;
+                    font-family: "Play", sans-serif;
+                }
+
+                p {
+                    font-weight: 400;
+                    font-size: 16px;
+                    color: #e0e0e0;
+                    position: relative;
+                    margin-top: -10px;
+                    font-family: "Play", sans-serif;
+                    margin-left: -40px;
+                    margin-right: 40px;
+                    display: block;
+                }
+            }
+        }
+
+        .section {
+            display: flex;
+            flex-wrap: wrap;
+
+            .bloc1_tren3 {
+                flex: 40%;
+                padding: 0px;
+                margin-top: -1px;
+                height: 360px;
+                padding-left: 70px;
+                background: #000000;
+
+                .img_bloc1_tren3__4 {
+                    height: 140px;
+                    padding: 18px 0 0;
+                    margin-left: -80px;
+                    margin-top: -230px;
+                    z-index: 1;
+                    position: relative;
+                    background-image: url("https://sun9-21.userapi.com/s/v1/ig2/K6DVirT-6KquJgTynlWFR5jUIBTbtMtumaIndRPX0LLpfHmLkKtJSpGkvhFy_9trju9L1URMHMONINq5K41tKP-Z.jpg?size=2000x1081&quality=96&type=album");
+                }
+
+                .rf {
+                    background-position: 40%;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                }
+
+                h4 {
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 19px;
+                    margin-top: 50px;
+                    color: #ffffff;
+                    position: absolute;
+                    margin-left: -40px;
+                    font-family: "Play", sans-serif;
+                    z-index: 9;
+                }
+
+                h1 {
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 31px;
+                    position: absolute;
+                    color: #ffffff;
+                    width: 340px;
+                    margin-top: 190px;
+                    margin-left: -40px;
+                    font-family: "Play", sans-serif;
+                }
+
+                p {
+                    font-weight: 400;
+                    font-size: 16px;
+                    color: #e0e0e0;
+                    position: relative;
+                    margin-top: 250px;
+                    font-family: "Play", sans-serif;
+                    margin-left: -40px;
+                    margin-right: 40px;
+                    display: block;
+                }
+            }
+        }
+
+        .futer_tren {
+            background-color: #000;
+            width: 100%;
+            height: 100px;
+            position: absolute;
+            margin-top: 130px;
+
+            p {
+                color: #919191;
+                font-size: 12px;
+                margin-top: 40px;
+                margin-left: 20px;
+            }
+
+            hr {
+                height: 1px;
+                width: 100%;
+                border: none;
+                margin-top: -1px;
+                background-color: #6c6c6c;
+                position: absolute;
+            }
         }
     }
 }
@@ -3203,7 +4206,7 @@ header:before {
 .section {
     display: flex;
 
-    .bloc1_tren {
+    .bloc1_tren3 {
         flex: 1;
         padding: 0px;
         margin-bottom: -130px;
@@ -3265,7 +4268,7 @@ header:before {
 .section {
     display: flex;
 
-    .bloc1_tren {
+    .bloc1_tren2 {
         flex: 1;
         padding: 0px;
         margin-bottom: -130px;
@@ -3320,6 +4323,257 @@ header:before {
             margin-left: 85px;
             margin-right: 50px;
             display: block;
+        }
+    }
+}
+
+//Адавтив телефон страница-6___________________________________________________________________________________
+@media (max-width: 750px) {
+    .content-tren {
+        .img-tren__5 {
+            height: 502px;
+            padding: 18px 0 0;
+            margin-top: 50px;
+            margin-bottom: -130px;
+            position: relative;
+            background-image: url("https://sun1.ufanet.userapi.com/s/v1/ig2/wGPdDG09FF3rYzYd-i30AioVxZLAGm5J329IkwGXukd-kU1mksXZqCQrhS_BF3Z3FxRejlkM1acr7oiwudq64Vlk.jpg?size=2000x1081&quality=96&type=album");
+            background-repeat: no-repeat;
+
+            h1 {
+                font-size: 50px;
+                position: absolute;
+                color: #ffffff;
+                margin-left: 50px;
+                margin-top: 200px;
+                font-family: "Play", sans-serif;
+            }
+        }
+        .rf {
+            background-position: 55%;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .section {
+            display: flex;
+            flex-wrap: wrap;
+
+            .bloc1_tren {
+                flex: 40%;
+                padding: 0px;
+                margin-top: 20px;
+                height: 480px;
+                padding-left: 70px;
+                background: #000000;
+
+                .img_bloc1_tren__5 {
+                    height: 140px;
+                    padding: 18px 0 0;
+                    margin-left: -80px;
+                    margin-top: -260px;
+                    z-index: 1;
+                    position: relative;
+                    background-image: url("https://sun9-23.userapi.com/s/v1/ig2/VhH6ySolWXEf9Og4zVIwgyKCQZeRX-isUZ3L0nVV9xH4MtnKQLZRwKR3G62iE_z73_lqDkLOQAXk2YUHR3jDgh6O.jpg?size=2000x1081&quality=96&type=album");
+                }
+
+                .rf {
+                    background-position: 50%;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                }
+
+                h4 {
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 19px;
+                    margin-top: 150px;
+                    color: #ffffff;
+                    position: absolute;
+                    margin-left: -40px;
+                    font-family: "Play", sans-serif;
+                    z-index: 9;
+                }
+
+                h1 {
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 31px;
+                    position: absolute;
+                    color: #ffffff;
+                    width: 290px;
+                    margin-top: 310px;
+                    margin-left: -40px;
+                    font-family: "Play", sans-serif;
+                }
+
+                p {
+                    font-weight: 400;
+                    font-size: 16px;
+                    color: #e0e0e0;
+                    position: relative;
+                    margin-top: 410px;
+                    font-family: "Play", sans-serif;
+                    margin-left: -40px;
+                    margin-right: 40px;
+                    display: block;
+                }
+            }
+        }
+
+        .section {
+            display: flex;
+            flex-wrap: wrap;
+
+            .bloc1_tren2 {
+                flex: 40%;
+                padding: 0px;
+                margin-top: -1px;
+                height: 460px;
+                padding-left: 70px;
+                background: #000000;
+
+                .img_bloc1_tren2__5 {
+                    height: 140px;
+                    padding: 18px 0 0;
+                    margin-left: -80px;
+                    margin-top: -1px;
+                    z-index: 1;
+                    position: relative;
+                    background-image: url("https://sun9-19.userapi.com/s/v1/ig2/clyO20j5LuyGnRA7RaS94gMR-hfotGHFYVGe4KHS5AwAbknkH2EgwNwjQILnPPxo1Ml5DUttVTLwDS2BEG9HfHa0.jpg?size=2000x1080&quality=96&type=album");
+                }
+
+                .rf {
+                    background-position: 40%;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                }
+
+                h4 {
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 19px;
+                    margin-top: -260px;
+                    color: #ffffff;
+                    position: absolute;
+                    margin-left: -40px;
+                    font-family: "Play", sans-serif;
+                    z-index: 9;
+                }
+
+                h1 {
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 31px;
+                    position: absolute;
+                    color: #ffffff;
+                    width: 340px;
+                    margin-top: -110px;
+                    margin-left: -40px;
+                    font-family: "Play", sans-serif;
+                }
+
+                p {
+                    font-weight: 400;
+                    font-size: 16px;
+                    color: #e0e0e0;
+                    position: relative;
+                    margin-top: -10px;
+                    font-family: "Play", sans-serif;
+                    margin-left: -40px;
+                    margin-right: 40px;
+                    display: block;
+                }
+            }
+        }
+
+        .section {
+            display: flex;
+            flex-wrap: wrap;
+
+            .bloc1_tren3 {
+                flex: 40%;
+                padding: 0px;
+                margin-top: -1px;
+                height: 360px;
+                padding-left: 70px;
+                background: #000000;
+
+                .img_bloc1_tren3__5 {
+                    height: 140px;
+                    padding: 18px 0 0;
+                    margin-left: -80px;
+                    margin-top: -230px;
+                    z-index: 1;
+                    position: relative;
+                    background-image: url("https://sun9-74.userapi.com/s/v1/ig2/W9HR-tV4sd5btt4cCXx_I-Fv-EKegiYKbYVqCGvJSotCpQg2Q3m3USBD5506wGsYIzoZuUuv2nv02rwo0-H9LOBK.jpg?size=2000x1081&quality=96&type=album");
+                }
+
+                .rf {
+                    background-position: 40%;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                }
+
+                h4 {
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 19px;
+                    margin-top: 50px;
+                    color: #ffffff;
+                    position: absolute;
+                    margin-left: -40px;
+                    font-family: "Play", sans-serif;
+                    z-index: 9;
+                }
+
+                h1 {
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 31px;
+                    position: absolute;
+                    color: #ffffff;
+                    width: 340px;
+                    margin-top: 190px;
+                    margin-left: -40px;
+                    font-family: "Play", sans-serif;
+                }
+
+                p {
+                    font-weight: 400;
+                    font-size: 16px;
+                    color: #e0e0e0;
+                    position: relative;
+                    margin-top: 290px;
+                    font-family: "Play", sans-serif;
+                    margin-left: -40px;
+                    margin-right: 40px;
+                    display: block;
+                }
+            }
+        }
+
+        .futer_tren {
+            background-color: #000;
+            width: 100%;
+            height: 100px;
+            position: absolute;
+            margin-top: 130px;
+
+            p {
+                color: #919191;
+                font-size: 12px;
+                margin-top: 40px;
+                margin-left: 20px;
+            }
+
+            hr {
+                height: 1px;
+                width: 100%;
+                border: none;
+                margin-top: -1px;
+                background-color: #6c6c6c;
+                position: absolute;
+            }
         }
     }
 }
