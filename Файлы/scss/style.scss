@@ -1234,7 +1234,7 @@ header:before {
     }
 }
 
-//МОБИЛКА АДАПТИВ_________________________________________________________________________
+//МОБИЛКА АДАПТИВ_________________________________________________________________________----------------------------------
 @media (max-width: 700px) {
     .content {
         .Glavna1 {
@@ -1251,11 +1251,11 @@ header:before {
         }
 
         .Glavnap1 {
-            margin-left: 85px;
+            margin-left: 55px;
             margin-top: 310px;
-            color: rgb(232, 43, 43);
+            color: rgb(255, 255, 255);
             font-size: 36px;
-            width: 300px;
+            width: 250px;
             text-align: center;
             position: absolute;
             font-style: normal;
@@ -1264,8 +1264,8 @@ header:before {
         }
 
         .Glavnap2 {
-            color: rgb(224, 54, 54);
-            margin-left: 160px;
+            color: rgb(255, 255, 255);
+            margin-left: 90px;
             margin-top: 450px;
             position: absolute;
             font-size: 18px;
@@ -1282,7 +1282,7 @@ header:before {
             border-radius: 31px;
             margin-top: 520px;
             border: none;
-            margin-left: 150px;
+            margin-left: 80px;
             font-family: "Play", sans-serif;
             font-style: normal;
             font-weight: 700;
@@ -1297,7 +1297,7 @@ header:before {
                 flex: 40%;
                 padding: 0px;
                 margin-bottom: -20px;
-                height: 600px;
+                height: 620px;
                 padding-left: 70px;
                 background: #000000;
 
@@ -1351,7 +1351,7 @@ header:before {
                     position: absolute;
                     color: #ffffff;
                     width: 200px;
-                    margin-top: 250px;
+                    margin-top: 220px;
                     margin-left: -40px;
                     font-family: "Play", sans-serif;
                 }
@@ -1361,7 +1361,7 @@ header:before {
                     font-size: 16px;
                     color: #e0e0e0;
                     position: relative;
-                    margin-top: 330px;
+                    margin-top: 310px;
                     font-family: "Play", sans-serif;
                     margin-left: -40px;
                     margin-right: 40px;
@@ -1438,50 +1438,58 @@ header:before {
         /*слайдер*/
         .swiper {
             width: 100%;
-            height: 588px;
+            height: 900px;
             margin-top: -90px;
-
+            margin-bottom: 90px;
             position: absolute;
         }
 
         .swiper-slide {
             .section {
                 display: flex;
+                flex-wrap: wrap;
                 .bloc2 {
-                    flex: 1;
+                    flex: 60%;
                     padding: 0px;
-                    margin-bottom: 40px;
-                    height: 590px;
-                    background-color: #f32323;
-                    margin-top: 70px;
+
+                    height: 700px;
+                    background-color: #f93c3c;
+                    margin-top: 90px;
+                    margin-bottom: -290px;
+                    padding-left: -10px;
+
                     z-index: 50;
                     cursor: pointer;
                     h2 {
-                        font-size: 10px;
-                        margin-top: 50px;
+                        font-size: 18px;
+                        margin-top: -470px;
                         color: #000;
                         color: rgba(216, 216, 216, 0.64);
                         font-weight: 700;
                         font-size: 12px;
-                        margin-left: 70px;
+                        position: absolute;
                     }
 
                     h1 {
                         font-style: normal;
                         font-weight: 700;
-                        font-size: 40px;
+                        margin-top: -200px;
+                        font-size: 20px;
+                        margin-left: 10px;
+                        position: absolute;
                         color: #ffffff;
-                        margin-left: 70px;
-                        margin-top: 50px;
                     }
 
                     p {
                         font-style: normal;
                         font-weight: 200;
                         font-size: 20px;
-                        margin-left: 70px;
-                        margin-right: 70px;
+                        margin-top: -170px;
+                        margin-left: 10px;
+                        margin-right: 10px;
                         color: #ffffff;
+                        line-height: 25px;
+                        position: absolute;
                     }
                     .button_glav3 {
                         position: absolute;
@@ -1494,54 +1502,87 @@ header:before {
                         width: 203px;
                         color: #ff0000;
                         height: 37px;
-                        margin-left: 80px;
-                        margin-top: 15px;
+                        margin-left: 10px;
+                        margin-top: 75px;
+                        cursor: pointer;
+                    }
+
+                    .button_glav4 {
+                        position: absolute;
+                        font-family: "Play", sans-serif;
+                        font-style: normal;
+                        font-weight: 300;
+                        font-size: 14px;
+                        background: #000000;
+                        border-radius: 31px;
+                        width: 203px;
+                        color: #ff0000;
+                        height: 37px;
+                        margin-left: 10px;
+                        margin-top: 175px;
+                        cursor: pointer;
+                    }
+
+                    .button_glav5 {
+                        position: absolute;
+                        font-family: "Play", sans-serif;
+                        font-style: normal;
+                        font-weight: 300;
+                        font-size: 14px;
+                        background: #000000;
+                        border-radius: 31px;
+                        width: 203px;
+                        color: #ff0000;
+                        height: 37px;
+                        margin-left: 10px;
+                        margin-top: 65px;
                         cursor: pointer;
                     }
                     .img_bloc1 {
-                        height: 500px;
+                        height: 250px;
+
                         padding: 18px 0 0;
                         position: relative;
                         background-image: url("https://mskcrossfit.ru/wp-content/uploads/2017/03/cf.jpg");
                     }
 
                     .img_bloc2 {
-                        height: 500px;
+                        height: 250px;
                         padding: 18px 0 0;
                         position: relative;
                         background-image: url("https://sun2.ufanet.userapi.com/s/v1/ig2/F1s8hn7BXn0SfRyC5IQDXhh9QrOD7JkvGhRqggeL6huffJNw8JeWrWz5UckfzU6dkNUlA17f0VkjAab6nrf6Wbcq.jpg?size=633x477&quality=96&type=album");
                     }
 
                     .img_bloc3 {
-                        height: 500px;
+                        height: 250px;
                         padding: 18px 0 0;
                         position: relative;
                         background-image: url("https://sun9-north.userapi.com/sun9-85/s/v1/ig2/Vo3_pLayTsGDN1YdFjVW5zHFyjdwUO2gMv8UPMF0d1ToeVngNlb4Y6SHvd0VbqbKupcYGJKWwCcDVTJEBNaiwHuB.jpg?size=633x477&quality=96&type=album");
                     }
 
                     .img_bloc4 {
-                        height: 500px;
+                        height: 250px;
                         padding: 18px 0 0;
                         position: relative;
                         background-image: url("https://sun1.ufanet.userapi.com/s/v1/ig2/SVdgO_kXfOq01c2_Q1Cm9SASVi88d-gXvL-LRqBaxHbqCAlVQQzhBZj7G5zhY2WUdbi0d7G4OoZA1vmhkFD-Phaz.jpg?size=633x477&quality=96&type=album");
                     }
 
                     .img_bloc5 {
-                        height: 500px;
+                        height: 250px;
                         padding: 18px 0 0;
                         position: relative;
                         background-image: url("https://sun1.ufanet.userapi.com/s/v1/ig2/bY_Dtss0Xg9JfXfW45wNQ3LR_exQD5Hn2HVbg_Sozg08YVNeUnY0m80aJr7VSmxFHord8I2wl13wmSYFt56sgAwC.jpg?size=633x477&quality=96&type=album");
                     }
 
                     .img_bloc6 {
-                        height: 500px;
+                        height: 250px;
                         padding: 18px 0 0;
                         position: relative;
                         background-image: url("https://sun2.ufanet.userapi.com/s/v1/ig2/4JRke4-aSwAHO-oAcHl6yaRQ8u54xwA3FcAOISKQ23WXhNdP2dDaYVppRfHS2WStJxqWd4IAc0Pz1nxL6BOWdw-c.jpg?size=633x477&quality=96&type=album");
                     }
 
                     .img_bloc7 {
-                        height: 500px;
+                        height: 250px;
                         padding: 18px 0 0;
                         position: relative;
                         background-image: url("https://mskcrossfit.ru/wp-content/uploads/2017/03/about2.jpg");
@@ -1557,7 +1598,7 @@ header:before {
         }
 
         .swiper-pagination {
-            margin-left: 170px;
+            margin-left: 0px;
             margin-top: -40px;
             position: relative;
             z-index: 4;
@@ -1575,57 +1616,68 @@ header:before {
         }
 
         .bloc_content {
-            .section {
-                display: flex;
-                .bloc3 {
-                    flex: 1;
-                    padding: 0px;
+            padding: 0px;
 
-                    height: 390px;
-                    background-color: #232323;
+            height: 610px;
 
-                    margin-top: 498px;
-                    z-index: 5;
-                    cursor: pointer;
+            background-image: url("https://sun9-9.userapi.com/s/v1/ig2/cipFXGXImrnqNAZloNl144FWOUBwfMXp2M9cvqiS3IxOX6KKLFyDHF62PXpu1mJ-dx1L5ChcGaNTDft-nIZe3oFL.jpg?size=1440x489&quality=96&type=album");
+            margin-top: 810px;
+            z-index: 5;
 
-                    h1 {
-                        font-style: normal;
-                        font-weight: 700;
-                        font-size: 35px;
-                        width: 100px;
-                        position: relative;
-                        margin-top: 35px;
-                        color: #ffffff;
-                        font-family: "Play", sans-serif;
-                        margin-left: 85px;
-                        margin-right: 50px;
-                    }
-                    .crug {
-                        position: absolute;
-                        width: 15px;
-                        height: 13px;
-                        background: #ff4343;
-                        border-radius: 10px;
-                        margin-top: 5px;
-                        margin-left: 50px;
-                    }
+            background-repeat: no-repeat;
+            cursor: pointer;
 
-                    p {
-                        color: #ffffff;
-                        font-size: 20px;
-                        margin-left: 85px;
-                        margin-top: 85px;
-                    }
-                    .text_bloc3 {
-                        margin-bottom: -45px;
-                    }
-                }
+            .rf {
+                background-position: 50%;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+
+            .button_glav3 {
+                position: absolute;
+                font-family: "Play", sans-serif;
+                font-style: normal;
+                font-weight: 300;
+                font-size: 14px;
+                background: #ff0000;
+                border-radius: 31px;
+                width: 203px;
+                border: none;
+                color: #000000;
+                height: 37px;
+                margin-left: 10px;
+                margin-top: 455px;
+                cursor: pointer;
+            }
+
+            h2 {
+                position: absolute;
+                color: #b2b2b2;
+                font-size: 20px;
+                margin-left: 10px;
+                margin-top: 40px;
+            }
+            h1 {
+                position: absolute;
+                font-size: 35px;
+                width: 300px;
+                color: #ffffff;
+                margin-top: 110px;
+                margin-left: 10px;
+            }
+            p {
+                position: absolute;
+                font-size: 25px;
+                color: #ffffff;
+                margin-top: 220px;
+                margin-right: 10px;
+                margin-left: 10px;
             }
         }
 
         .bloc-flex {
             background-color: #000000;
-            height: 455px;
+            height: 1450px;
             .container_flex {
                 max-width: 1180px;
                 margin: 0px auto;
@@ -1633,16 +1685,19 @@ header:before {
 
                 .flex-bloc1 {
                     display: flex;
+                    flex-wrap: wrap;
 
                     .flex_bloc_1 {
-                        flex: 1;
+                        flex: 50%;
                         padding: 0px;
-                        margin-left: 10px;
+
                         height: 490px;
-                        margin-right: 15px;
+
                         background: #8ee391;
                         z-index: 10;
+                        padding-left: -5px;
                         margin-top: -20px;
+                        margin-bottom: 30px;
 
                         .img-flex {
                             position: absolute;
@@ -1693,7 +1748,8 @@ header:before {
             background-color: #232323;
             width: 100%;
             position: absolute;
-            height: 400px;
+            height: 500px;
+
             .container_content {
                 max-width: 1180px;
                 margin: 0px auto;
@@ -1701,11 +1757,11 @@ header:before {
 
                 h1 {
                     font-weight: 700;
-                    font-size: 48px;
+                    font-size: 28px;
                     color: #ffffff;
                     font-family: "Play", sans-serif;
                     margin-top: 50px;
-                    margin-left: 460px;
+                    margin-left: 110px;
                     position: absolute;
                 }
 
@@ -1714,7 +1770,9 @@ header:before {
                     color: #ffffff;
                     font-family: "Play", sans-serif;
                     margin-top: 120px;
-                    font-size: 25px;
+                    font-size: 20px;
+                    text-align: center;
+                    margin-left: 10px;
 
                     p {
                         padding-top: -5px;
@@ -1725,10 +1783,11 @@ header:before {
                     position: absolute;
                     color: #ffffff;
                     font-family: "Play", sans-serif;
-                    margin-top: 120px;
-                    font-size: 25px;
-                    margin-left: 749px;
-                    width: 320px;
+                    margin-top: 310px;
+                    font-size: 20px;
+                    margin-left: 60px;
+                    text-align: center;
+                    width: 250px;
                 }
             }
         }
@@ -1738,11 +1797,11 @@ header:before {
             width: 100%;
             height: 100px;
             position: absolute;
-            margin-top: 400px;
+            margin-top: 500px;
 
             p {
                 color: #919191;
-                font-size: 15px;
+                font-size: 13px;
                 margin-top: 40px;
                 margin-left: 20px;
             }
