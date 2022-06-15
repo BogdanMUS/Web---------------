@@ -4536,3 +4536,226 @@ header:before {
   background-color: #6c6c6c;
   position: absolute;
 }
+
+.content-str {
+  margin-top: 80px;
+}
+.content-str h1 {
+  position: absolute;
+  font-family: "Play";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  color: #000;
+}
+.content-str h2 {
+  position: absolute;
+  font-family: "Play";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  margin-top: 100px;
+  color: #000;
+}
+.content-str p {
+  position: absolute;
+  font-family: "Play";
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  font-size: 15px;
+  margin-top: 150px;
+  color: #000;
+}
+.content-str .flex_str {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: -10px;
+}
+.content-str .flex_str .div-bloc1-str {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  padding: 5px;
+  margin: 10px;
+  height: 490px;
+  background: #ff5a5a;
+  position: relative;
+  margin-top: 260px;
+}
+.content-str .flex_str .div-bloc1-str h1 {
+  color: #000;
+  position: absolute;
+  font-family: "Play";
+  font-weight: 800;
+  font-size: 25px;
+  margin-left: 25px;
+}
+.content-str .flex_str .div-bloc1-str h2 {
+  color: #ffffff;
+  font-size: 18px;
+  position: absolute;
+  margin-left: 25px;
+  margin-top: 60px;
+  font-weight: 200;
+  font-family: "Play";
+}
+.content-str .flex_str .div-bloc1-str h3 {
+  color: #000;
+  font-weight: 700;
+  font-size: 40px;
+  margin-top: 110px;
+  position: absolute;
+  margin-left: 25px;
+  font-family: "Play";
+}
+.content-str .flex_str .div-bloc1-str p {
+  position: absolute;
+  color: #ffffff;
+  margin-top: 190px;
+  margin-left: 25px;
+  font-family: "Play";
+}
+.content-str .flex_str .div-bloc1-str .h2_1 {
+  color: #ffffff;
+  font-size: 18px;
+  position: absolute;
+  margin-left: 25px;
+  margin-top: 90px;
+  font-weight: 200;
+  font-family: "Play";
+}
+.content-str .flex_str .div-bloc1-str .h3_1 {
+  color: #000;
+  font-weight: 200;
+  font-size: 40px;
+  margin-top: 160px;
+  position: absolute;
+  margin-left: 25px;
+  font-family: "Play";
+}
+.content-str .flex_str .div-bloc1-str .h3_2 {
+  color: #000;
+  font-weight: 200;
+  font-size: 40px;
+  margin-top: 250px;
+  position: absolute;
+  margin-left: 25px;
+  font-family: "Play";
+}
+.content-str .flex_str .div-bloc1-str .h3_3 {
+  color: #000;
+  font-weight: 700;
+  font-size: 40px;
+  margin-top: 340px;
+  position: absolute;
+  margin-left: 25px;
+  font-family: "Play";
+}
+.content-str .flex_str .div-bloc1-str .p_1 {
+  position: absolute;
+  color: #ffffff;
+  margin-top: 210px;
+  margin-left: 25px;
+  font-family: "Play";
+}
+.content-str .flex_str .div-bloc1-str .p_2 {
+  position: absolute;
+  color: #ffffff;
+  margin-top: 300px;
+  margin-left: 25px;
+  font-family: "Play";
+}
+.content-str .flex_str .div-bloc1-str .p_3 {
+  position: absolute;
+  color: #ffffff;
+  margin-top: 390px;
+  margin-left: 25px;
+  font-family: "Play";
+}
+.content-str .flex_str .div-bloc1-str .h1_1 {
+  color: #000;
+  position: absolute;
+  font-family: "Play";
+  font-weight: 800;
+  font-size: 25px;
+  margin-left: 25px;
+}
+.content-str .flex_str .div-bloc1-str .h1_2 {
+  color: #000;
+  position: absolute;
+  font-family: "Play";
+  font-weight: 800;
+  font-size: 25px;
+  margin-top: 210px;
+  margin-left: 25px;
+}
+.content-str .flex_str .div-bloc1-str .h3_4 {
+  color: #000;
+  font-weight: 700;
+  font-size: 40px;
+  margin-top: 60px;
+  position: absolute;
+  margin-left: 25px;
+  font-family: "Play";
+}
+.content-str .flex_str .div-bloc1-str .h3_5 {
+  color: #000;
+  font-weight: 700;
+  font-size: 40px;
+  margin-top: 250px;
+  position: absolute;
+  margin-left: 25px;
+  font-family: "Play";
+}
+.content-str .flex_str .div-bloc1-str .p_4 {
+  position: absolute;
+  color: #ffffff;
+  margin-top: 120px;
+  margin-left: 25px;
+  font-family: "Play";
+}
+.content-str .flex_str .div-bloc1-str .p_5 {
+  position: absolute;
+  color: #ffffff;
+  margin-top: 310px;
+  margin-left: 25px;
+  font-family: "Play";
+}
+.content-str .flex_str .div-bloc1-str hr {
+  border: none;
+  height: 2px;
+  margin-top: 190px;
+  background-color: #000;
+}
+.content-str .flex_str .div-bloc1-str .button-cup {
+  width: 150px;
+  height: 30px;
+  background-color: rgb(0, 0, 0);
+  position: absolute;
+  margin-top: 450px;
+  border-radius: 13px;
+  font-size: 9px;
+  font-weight: 700;
+  color: rgb(255, 0, 0);
+  margin-left: 100px;
+}
+.content-str .bloc-sale {
+  background-color: #000;
+  height: 140px;
+  margin-top: 40px;
+}
+.content-str .bloc-sale h1 {
+  position: absolute;
+  color: #ffffff;
+  font-size: 25px;
+  margin-left: 25px;
+}
+.content-str .bloc-sale p {
+  position: absolute;
+  color: #ffffff;
+  font-size: 22px;
+  margin-left: 25px;
+  margin-top: 80px;
+}

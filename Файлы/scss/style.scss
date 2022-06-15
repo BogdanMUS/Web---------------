@@ -4770,3 +4770,235 @@ header:before {
         position: absolute;
     }
 }
+//СТРАНИЦА ПИТАНИЕ АДАПТИВ-------------------------------------------------------------------------------------------------
+
+//СТРАНИЦА СТОИМОСТЬ___________------------------------------------------------__________________--------------------------------
+.content-str {
+    margin-top: 80px;
+    h1 {
+        position: absolute;
+        font-family: "Play";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        color: #000;
+    }
+
+    h2 {
+        position: absolute;
+        font-family: "Play";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 25px;
+        margin-top: 100px;
+        color: #000;
+    }
+
+    p {
+        position: absolute;
+        font-family: "Play";
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px;
+        font-size: 15px;
+        margin-top: 150px;
+        color: #000;
+    }
+
+    .flex_str {
+        display: flex;
+        margin-left: -10px;
+        .div-bloc1-str {
+            flex: 1;
+            padding: 5px;
+            margin: 10px;
+
+            height: 490px;
+            background: #ff5a5a;
+            position: relative;
+            margin-top: 260px;
+
+            h1 {
+                color: #000;
+                position: absolute;
+                font-family: "Play";
+                font-weight: 800;
+                font-size: 25px;
+                margin-left: 25px;
+            }
+            h2 {
+                color: #ffffff;
+                font-size: 18px;
+                position: absolute;
+                margin-left: 25px;
+                margin-top: 60px;
+                font-weight: 200;
+                font-family: "Play";
+            }
+            h3 {
+                color: #000;
+                font-weight: 700;
+                font-size: 40px;
+                margin-top: 110px;
+                position: absolute;
+                margin-left: 25px;
+                font-family: "Play";
+            }
+            p {
+                position: absolute;
+                color: #ffffff;
+                margin-top: 190px;
+                margin-left: 25px;
+                font-family: "Play";
+            }
+
+            .h2_1 {
+                color: #ffffff;
+                font-size: 18px;
+                position: absolute;
+                margin-left: 25px;
+                margin-top: 90px;
+                font-weight: 200;
+                font-family: "Play";
+            }
+
+            .h3_1 {
+                color: #000;
+                font-weight: 200;
+                font-size: 40px;
+                margin-top: 160px;
+                position: absolute;
+                margin-left: 25px;
+                font-family: "Play";
+            }
+            .h3_2 {
+                color: #000;
+                font-weight: 200;
+                font-size: 40px;
+                margin-top: 250px;
+                position: absolute;
+                margin-left: 25px;
+                font-family: "Play";
+            }
+            .h3_3 {
+                color: #000;
+                font-weight: 700;
+                font-size: 40px;
+                margin-top: 340px;
+                position: absolute;
+                margin-left: 25px;
+                font-family: "Play";
+            }
+
+            .p_1 {
+                position: absolute;
+                color: #ffffff;
+                margin-top: 210px;
+                margin-left: 25px;
+                font-family: "Play";
+            }
+            .p_2 {
+                position: absolute;
+                color: #ffffff;
+                margin-top: 300px;
+                margin-left: 25px;
+                font-family: "Play";
+            }
+            .p_3 {
+                position: absolute;
+                color: #ffffff;
+                margin-top: 390px;
+                margin-left: 25px;
+                font-family: "Play";
+            }
+            .h1_1 {
+                color: #000;
+                position: absolute;
+                font-family: "Play";
+                font-weight: 800;
+                font-size: 25px;
+                margin-left: 25px;
+            }
+            .h1_2 {
+                color: #000;
+                position: absolute;
+                font-family: "Play";
+                font-weight: 800;
+                font-size: 25px;
+                margin-top: 210px;
+                margin-left: 25px;
+            }
+            .h3_4 {
+                color: #000;
+                font-weight: 700;
+                font-size: 40px;
+                margin-top: 60px;
+                position: absolute;
+                margin-left: 25px;
+                font-family: "Play";
+            }
+            .h3_5 {
+                color: #000;
+                font-weight: 700;
+                font-size: 40px;
+                margin-top: 250px;
+                position: absolute;
+                margin-left: 25px;
+                font-family: "Play";
+            }
+            .p_4 {
+                position: absolute;
+                color: #ffffff;
+                margin-top: 120px;
+                margin-left: 25px;
+                font-family: "Play";
+            }
+            .p_5 {
+                position: absolute;
+                color: #ffffff;
+                margin-top: 310px;
+                margin-left: 25px;
+                font-family: "Play";
+            }
+            hr {
+                border: none;
+                height: 2px;
+                margin-top: 190px;
+                background-color: #000;
+            }
+
+            .button-cup {
+                width: 150px;
+                height: 30px;
+                background-color: rgb(0, 0, 0);
+
+                position: absolute;
+                margin-top: 450px;
+                border-radius: 13px;
+                font-size: 9px;
+                font-weight: 700;
+                color: rgb(255, 0, 0);
+                margin-left: 100px;
+            }
+        }
+    }
+
+    .bloc-sale {
+        background-color: #000;
+        height: 140px;
+        margin-top: 40px;
+        h1 {
+            position: absolute;
+            color: #ffffff;
+            font-size: 25px;
+            margin-left: 25px;
+        }
+        p {
+            position: absolute;
+            color: #ffffff;
+            font-size: 22px;
+            margin-left: 25px;
+            margin-top: 80px;
+        }
+    }
+}
