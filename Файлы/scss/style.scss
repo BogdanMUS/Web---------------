@@ -4986,7 +4986,7 @@ header:before {
     .bloc-sale {
         background-color: #000;
         height: 140px;
-        margin-top: 40px;
+        margin-top: 90px;
         h1 {
             position: absolute;
             color: #ffffff;
@@ -5003,6 +5003,16 @@ header:before {
     }
 
     .bloc-vopros {
+        h1 {
+            font-size: 35px;
+            position: relative;
+            color: #000000;
+            margin-top: 120px;
+            width: 900px;
+            display: flex;
+
+            cursor: pointer;
+        }
         .button_stoim {
             position: relative;
             display: block;
@@ -5241,6 +5251,84 @@ header:before {
         .menu_vopros2 {
             display: none;
             transition: 0.9s;
+        }
+    }
+
+    .bloc__telega {
+        h1 {
+            font-size: 35px;
+            position: relative;
+            color: #000000;
+            margin-top: 120px;
+            width: 900px;
+            display: flex;
+        }
+        p {
+            position: absolute;
+            color: #000000;
+            font-size: 22px;
+            margin-top: 0px;
+            font-weight: 200;
+        }
+
+        .button-telega {
+            width: 160px;
+            height: 40px;
+            background-color: rgb(255, 255, 255);
+            border: 2px solid red;
+            position: absolute;
+            margin-top: 50px;
+            border-radius: 13px;
+            font-size: 13px;
+            font-weight: 700;
+            color: rgb(255, 0, 0);
+        }
+    }
+    .bloc_tren {
+        background-color: #ff7676;
+        height: 300px;
+        margin-top: 200px;
+        h1 {
+            font-size: 35px;
+            position: absolute;
+            color: #ffffff;
+            margin-top: 20px;
+            width: 900px;
+            display: flex;
+        }
+        p {
+            position: absolute;
+            color: #ffffff;
+            font-size: 22px;
+            margin-top: 90px;
+
+            font-weight: 200;
+        }
+        .button-tren {
+            width: 200px;
+            height: 40px;
+            background-color: #ff7676;
+            border: 2px solid rgb(255, 255, 255);
+            position: absolute;
+            margin-top: 220px;
+            border-radius: 13px;
+            font-size: 13px;
+            font-weight: 700;
+            color: rgb(255, 255, 255);
+        }
+    }
+    .futer {
+        background-color: #000;
+        width: 100%;
+        height: 100px;
+        position: absolute;
+        margin-top: 0px;
+
+        p {
+            color: #919191;
+            font-size: 15px;
+            margin-top: 40px;
+            margin-left: 20px;
         }
     }
 }
