@@ -5,6 +5,27 @@ $(document).ready(function () {
     });
 });
 
+$(document).ready(function () {
+    $(".button_stoim").click(function (event) {
+        $(".button_stoim,.menu_vopros").toggleClass("active");
+        $("body").toggleClass("lock");
+    });
+});
+
+$(document).ready(function () {
+    $(".button_stoim1").click(function (event) {
+        $(".button_stoim1,.menu_vopros1").toggleClass("active");
+        $("body").toggleClass("lock");
+    });
+});
+
+$(document).ready(function () {
+    $(".button_stoim2").click(function (event) {
+        $(".button_stoim2,.menu_vopros2").toggleClass("active");
+        $("body").toggleClass("lock");
+    });
+});
+
 document.addEventListener("DOMContentLoaded", function () {
     const slider = new ChiefSlider(".slider", {
         loop: true,

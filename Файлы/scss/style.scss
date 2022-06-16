@@ -5001,4 +5001,246 @@ header:before {
             margin-top: 80px;
         }
     }
+
+    .bloc-vopros {
+        .button_stoim {
+            position: relative;
+            display: block;
+            width: 30px;
+            height: 20px;
+            position: relative;
+            z-index: 3;
+            margin-left: 45px;
+            margin-top: 40px;
+
+            h1 {
+                font-size: 25px;
+                position: absolute;
+                color: #000000;
+                margin-top: -5px;
+                width: 900px;
+                display: flex;
+                cursor: pointer;
+            }
+
+            span {
+                position: absolute;
+                margin-left: -45px;
+                margin-top: -5px;
+                img {
+                    width: 30px;
+                    height: 30px;
+                    position: absolute;
+                }
+            }
+        }
+
+        .button_stoim.active {
+            h1 {
+                font-size: 25px;
+                position: absolute;
+                color: #ff0000;
+                margin-top: -5px;
+                width: 900px;
+                display: flex;
+                cursor: pointer;
+            }
+        }
+        .icon_minus {
+            display: none;
+        }
+        .button_stoim.active {
+            .icon_minus {
+                position: absolute;
+                margin-left: -45px;
+                margin-top: -5px;
+                display: block;
+                img {
+                    width: 30px;
+                    height: 30px;
+                    position: absolute;
+                }
+            }
+            span {
+                display: none;
+            }
+        }
+        .menu_vopros.active {
+            top: 0;
+            transition: 0.9s;
+            display: block;
+
+            p {
+                font-size: 20px;
+                position: relative;
+                margin-top: 20px;
+                transition: 5.9s;
+            }
+        }
+
+        .menu_vopros {
+            display: none;
+            transition: 0.9s;
+        }
+    }
+
+    .bloc-vopros1 {
+        .button_stoim1 {
+            position: relative;
+            display: block;
+            width: 30px;
+            height: 20px;
+            position: relative;
+            z-index: 3;
+            margin-left: 45px;
+            margin-top: 40px;
+
+            h1 {
+                font-size: 25px;
+                position: absolute;
+                color: #000000;
+                margin-top: -5px;
+                width: 900px;
+                display: flex;
+                cursor: pointer;
+            }
+
+            span {
+                position: absolute;
+                margin-left: -45px;
+                margin-top: -5px;
+                img {
+                    width: 30px;
+                    height: 30px;
+                    position: absolute;
+                }
+            }
+        }
+
+        .button_stoim1.active {
+            h1 {
+                font-size: 25px;
+                position: absolute;
+                color: #ff0000;
+                margin-top: -5px;
+                width: 900px;
+                display: flex;
+                cursor: pointer;
+            }
+        }
+        .icon_minus1 {
+            display: none;
+        }
+        .button_stoim1.active {
+            .icon_minus1 {
+                position: absolute;
+                margin-left: -45px;
+                margin-top: -5px;
+                display: block;
+                img {
+                    width: 30px;
+                    height: 30px;
+                    position: absolute;
+                }
+            }
+            span {
+                display: none;
+            }
+        }
+        .menu_vopros1.active {
+            top: 0;
+            transition: 0.9s;
+            display: block;
+
+            p {
+                font-size: 20px;
+                position: relative;
+                margin-top: 20px;
+            }
+        }
+        .menu_vopros1 {
+            display: none;
+            transition: 0.9s;
+        }
+    }
+
+    .bloc-vopros2 {
+        .button_stoim2 {
+            position: relative;
+            display: block;
+            width: 30px;
+            height: 20px;
+            position: relative;
+            z-index: 3;
+            margin-left: 45px;
+            margin-top: 40px;
+
+            h1 {
+                font-size: 25px;
+                position: absolute;
+                color: #000000;
+                margin-top: -5px;
+                width: 900px;
+                display: flex;
+                cursor: pointer;
+            }
+
+            span {
+                position: absolute;
+                margin-left: -45px;
+                margin-top: -5px;
+                img {
+                    width: 30px;
+                    height: 30px;
+                    position: absolute;
+                }
+            }
+        }
+
+        .button_stoim2.active {
+            h1 {
+                font-size: 25px;
+                position: absolute;
+                color: #ff0000;
+                margin-top: -5px;
+                width: 900px;
+                display: flex;
+                cursor: pointer;
+            }
+        }
+        .icon_minus2 {
+            display: none;
+        }
+        .button_stoim2.active {
+            .icon_minus2 {
+                position: absolute;
+                margin-left: -45px;
+                margin-top: -5px;
+                display: block;
+                img {
+                    width: 30px;
+                    height: 30px;
+                    position: absolute;
+                }
+            }
+            span {
+                display: none;
+            }
+        }
+        .menu_vopros2.active {
+            top: 0;
+            transition: 0.9s;
+            display: block;
+
+            p {
+                font-size: 20px;
+                position: relative;
+                margin-top: 20px;
+            }
+        }
+        .menu_vopros2 {
+            display: none;
+            transition: 0.9s;
+        }
+    }
 }

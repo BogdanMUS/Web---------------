@@ -4759,3 +4759,230 @@ header:before {
   margin-left: 25px;
   margin-top: 80px;
 }
+.content-str .bloc-vopros .button_stoim {
+  position: relative;
+  display: block;
+  width: 30px;
+  height: 20px;
+  position: relative;
+  z-index: 3;
+  margin-left: 45px;
+  margin-top: 40px;
+}
+.content-str .bloc-vopros .button_stoim h1 {
+  font-size: 25px;
+  position: absolute;
+  color: #000000;
+  margin-top: -5px;
+  width: 900px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  cursor: pointer;
+}
+.content-str .bloc-vopros .button_stoim span {
+  position: absolute;
+  margin-left: -45px;
+  margin-top: -5px;
+}
+.content-str .bloc-vopros .button_stoim span img {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+}
+.content-str .bloc-vopros .button_stoim.active h1 {
+  font-size: 25px;
+  position: absolute;
+  color: #ff0000;
+  margin-top: -5px;
+  width: 900px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  cursor: pointer;
+}
+.content-str .bloc-vopros .icon_minus {
+  display: none;
+}
+.content-str .bloc-vopros .button_stoim.active .icon_minus {
+  position: absolute;
+  margin-left: -45px;
+  margin-top: -5px;
+  display: block;
+}
+.content-str .bloc-vopros .button_stoim.active .icon_minus img {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+}
+.content-str .bloc-vopros .button_stoim.active span {
+  display: none;
+}
+.content-str .bloc-vopros .menu_vopros.active {
+  top: 0;
+  -webkit-transition: 0.9s;
+  transition: 0.9s;
+  display: block;
+}
+.content-str .bloc-vopros .menu_vopros.active p {
+  font-size: 20px;
+  position: relative;
+  margin-top: 20px;
+  -webkit-transition: 5.9s;
+  transition: 5.9s;
+}
+.content-str .bloc-vopros .menu_vopros {
+  display: none;
+  -webkit-transition: 0.9s;
+  transition: 0.9s;
+}
+.content-str .bloc-vopros1 .button_stoim1 {
+  position: relative;
+  display: block;
+  width: 30px;
+  height: 20px;
+  position: relative;
+  z-index: 3;
+  margin-left: 45px;
+  margin-top: 40px;
+}
+.content-str .bloc-vopros1 .button_stoim1 h1 {
+  font-size: 25px;
+  position: absolute;
+  color: #000000;
+  margin-top: -5px;
+  width: 900px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  cursor: pointer;
+}
+.content-str .bloc-vopros1 .button_stoim1 span {
+  position: absolute;
+  margin-left: -45px;
+  margin-top: -5px;
+}
+.content-str .bloc-vopros1 .button_stoim1 span img {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+}
+.content-str .bloc-vopros1 .button_stoim1.active h1 {
+  font-size: 25px;
+  position: absolute;
+  color: #ff0000;
+  margin-top: -5px;
+  width: 900px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  cursor: pointer;
+}
+.content-str .bloc-vopros1 .icon_minus1 {
+  display: none;
+}
+.content-str .bloc-vopros1 .button_stoim1.active .icon_minus1 {
+  position: absolute;
+  margin-left: -45px;
+  margin-top: -5px;
+  display: block;
+}
+.content-str .bloc-vopros1 .button_stoim1.active .icon_minus1 img {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+}
+.content-str .bloc-vopros1 .button_stoim1.active span {
+  display: none;
+}
+.content-str .bloc-vopros1 .menu_vopros1.active {
+  top: 0;
+  -webkit-transition: 0.9s;
+  transition: 0.9s;
+  display: block;
+}
+.content-str .bloc-vopros1 .menu_vopros1.active p {
+  font-size: 20px;
+  position: relative;
+  margin-top: 20px;
+}
+.content-str .bloc-vopros1 .menu_vopros1 {
+  display: none;
+  -webkit-transition: 0.9s;
+  transition: 0.9s;
+}
+.content-str .bloc-vopros2 .button_stoim2 {
+  position: relative;
+  display: block;
+  width: 30px;
+  height: 20px;
+  position: relative;
+  z-index: 3;
+  margin-left: 45px;
+  margin-top: 40px;
+}
+.content-str .bloc-vopros2 .button_stoim2 h1 {
+  font-size: 25px;
+  position: absolute;
+  color: #000000;
+  margin-top: -5px;
+  width: 900px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  cursor: pointer;
+}
+.content-str .bloc-vopros2 .button_stoim2 span {
+  position: absolute;
+  margin-left: -45px;
+  margin-top: -5px;
+}
+.content-str .bloc-vopros2 .button_stoim2 span img {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+}
+.content-str .bloc-vopros2 .button_stoim2.active h1 {
+  font-size: 25px;
+  position: absolute;
+  color: #ff0000;
+  margin-top: -5px;
+  width: 900px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  cursor: pointer;
+}
+.content-str .bloc-vopros2 .icon_minus2 {
+  display: none;
+}
+.content-str .bloc-vopros2 .button_stoim2.active .icon_minus2 {
+  position: absolute;
+  margin-left: -45px;
+  margin-top: -5px;
+  display: block;
+}
+.content-str .bloc-vopros2 .button_stoim2.active .icon_minus2 img {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+}
+.content-str .bloc-vopros2 .button_stoim2.active span {
+  display: none;
+}
+.content-str .bloc-vopros2 .menu_vopros2.active {
+  top: 0;
+  -webkit-transition: 0.9s;
+  transition: 0.9s;
+  display: block;
+}
+.content-str .bloc-vopros2 .menu_vopros2.active p {
+  font-size: 20px;
+  position: relative;
+  margin-top: 20px;
+}
+.content-str .bloc-vopros2 .menu_vopros2 {
+  display: none;
+  -webkit-transition: 0.9s;
+  transition: 0.9s;
+}
