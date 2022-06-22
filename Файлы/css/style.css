@@ -5073,3 +5073,69 @@ header:before {
   margin-top: 40px;
   margin-left: 20px;
 }
+
+.wrapper .bloc__ras h1 {
+  margin-top: 150px;
+  color: #000;
+  font-size: 40px;
+}
+.wrapper .bloc__ras p {
+  margin-top: 60px;
+  color: #000;
+}
+.wrapper .bloc__ras .bloc-flexras .bloc1 {
+  background-color: #000;
+  width: 160px;
+  height: 70px;
+  position: absolute;
+  margin-top: 7px;
+  margin-left: 10px;
+}
+.wrapper .bloc__ras .bloc-flexras .bloc2 {
+  background-color: #000;
+  width: 160px;
+  height: 70px;
+  position: absolute;
+  margin-top: 7px;
+  margin-left: 200px;
+}
+.wrapper .bloc__ras .bloc-flexras .bloc3 {
+  background-color: #000;
+  width: 160px;
+  height: 70px;
+  position: absolute;
+  margin-top: 7px;
+  margin-left: 390px;
+}
+.wrapper .bloc__ras .bloc-flexras .bloc4 {
+  background-color: #000;
+  width: 160px;
+  height: 70px;
+  position: absolute;
+  margin-top: 7px;
+  margin-left: 580px;
+}
+.wrapper .bloc__ras .bloc-flexras .bloc5 {
+  background-color: #000;
+  width: 160px;
+  height: 70px;
+  position: absolute;
+  margin-top: 7px;
+  margin-left: 770px;
+}
+.wrapper .bloc__ras .bloc-flexras .bloc6 {
+  background-color: #000;
+  width: 160px;
+  height: 70px;
+  position: absolute;
+  margin-top: 7px;
+  margin-left: 960px;
+}
+.wrapper .bloc__ras .bloc-hr {
+  margin-top: -10px;
+}
+.wrapper .bloc__ras .bloc-hr hr {
+  border: 1px solid black;
+  background-color: #000;
+  margin-top: 33px;
+}
