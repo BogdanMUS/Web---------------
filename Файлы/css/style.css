@@ -118,7 +118,7 @@ header:before {
     position: absolute;
     background-color: rgb(255, 255, 255);
     position: absolute;
-    left: -50px;
+    left: -10px;
     width: 100%;
     height: 2px;
     top: 9px;
@@ -130,7 +130,7 @@ header:before {
     background-color: rgb(255, 255, 255);
     width: 100%;
     height: 2px;
-    left: -50px;
+    left: -10px;
   }
   .header__burger:after {
     content: "";
@@ -138,7 +138,8 @@ header:before {
     background-color: rgb(255, 255, 255);
     width: 100%;
     height: 2px;
-    left: -50px;
+    left: -10px;
+    top: -8px;
   }
 
   .header__burger:before {
@@ -177,15 +178,15 @@ header:before {
   }
 
   .header__burger.active:before {
-    -webkit-transform: rotate(45deg);
-            transform: rotate(45deg);
-    top: 9px;
+    -webkit-transform: rotate(34deg);
+            transform: rotate(34deg);
+    top: 2px;
   }
 
   .header__burger.active:after {
-    -webkit-transform: rotate(-45deg);
-            transform: rotate(-45deg);
-    bottom: 9px;
+    -webkit-transform: rotate(-34deg);
+            transform: rotate(-34deg);
+    top: 2px;
   }
 
   .header__burger.active span {
@@ -221,6 +222,22 @@ header:before {
     font-size: 9px;
     font-weight: 700;
     color: aliceblue;
+  }
+
+  .header__logo {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 140px;
+            flex: 0 0 140px;
+    overflow: hidden;
+    position: relative;
+    z-index: 3;
+    margin-left: 5px;
+    margin-top: -13px;
+  }
+
+  .header__logo img {
+    max-width: 100%;
+    display: block;
   }
 }
 .content {
@@ -1200,17 +1217,16 @@ header:before {
     background-image: url("https://mskcrossfit.ru/wp-content/uploads/2017/03/download.jpg");
   }
   .content .gl {
-    background-position: 50%;
+    background-position: 40%;
     background-repeat: no-repeat;
     background-size: cover;
   }
   .content .Glavnap1 {
-    margin-left: 55px;
-    margin-top: 310px;
+    margin-left: 5px;
+    margin-top: 150px;
     color: rgb(255, 255, 255);
-    font-size: 36px;
-    width: 250px;
-    text-align: center;
+    font-size: 47px;
+    width: 320px;
     position: absolute;
     font-style: normal;
     font-weight: 700;
@@ -1218,10 +1234,10 @@ header:before {
   }
   .content .Glavnap2 {
     color: rgb(255, 255, 255);
-    margin-left: 90px;
-    margin-top: 450px;
+    margin-left: 5px;
+    margin-top: 350px;
     position: absolute;
-    font-size: 18px;
+    font-size: 28px;
     font-weight: 700;
     font-style: normal;
     font-family: "Play", sans-serif;
