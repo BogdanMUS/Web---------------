@@ -1405,9 +1405,8 @@ header:before {
   }
   .content .swiper {
     width: 100%;
-    height: 900px;
-    margin-top: -50px;
-    margin-bottom: 90px;
+    height: 920px;
+    margin-top: -90px;
     position: absolute;
   }
   .content .swiper-slide .section {
@@ -1423,9 +1422,8 @@ header:before {
             flex: 70%;
     padding: 0px;
     width: 60%;
-    height: 910px;
+    height: 920px;
     background-color: #f93c3c;
-    margin-top: 10px;
     margin-bottom: 0px;
     padding-left: 33px;
     z-index: 50;
@@ -1433,7 +1431,7 @@ header:before {
   }
   .content .swiper-slide .section .bloc2 h2 {
     font-size: 18px;
-    margin-top: -500px;
+    margin-top: -715px;
     color: #000;
     color: rgba(216, 216, 216, 0.64);
     font-weight: 700;
@@ -1443,7 +1441,7 @@ header:before {
   .content .swiper-slide .section .bloc2 h1 {
     font-style: normal;
     font-weight: 700;
-    margin-top: -450px;
+    margin-top: -660px;
     font-size: 20px;
     position: absolute;
     color: #ffffff;
@@ -1452,7 +1450,7 @@ header:before {
     font-style: normal;
     font-weight: 200;
     font-size: 22px;
-    margin-top: -400px;
+    margin-top: -590px;
     margin-right: 0px;
     color: #ffffff;
     line-height: 30px;
@@ -1504,43 +1502,43 @@ header:before {
     cursor: pointer;
   }
   .content .swiper-slide .section .bloc2 .img_bloc1 {
-    height: 360px;
+    height: 230px;
     padding: 18px 0 0;
     position: relative;
     background-image: url("https://mskcrossfit.ru/wp-content/uploads/2017/03/cf.jpg");
   }
   .content .swiper-slide .section .bloc2 .img_bloc2 {
-    height: 350px;
+    height: 230px;
     padding: 18px 0 0;
     position: relative;
     background-image: url("https://sun2.ufanet.userapi.com/s/v1/ig2/F1s8hn7BXn0SfRyC5IQDXhh9QrOD7JkvGhRqggeL6huffJNw8JeWrWz5UckfzU6dkNUlA17f0VkjAab6nrf6Wbcq.jpg?size=633x477&quality=96&type=album");
   }
   .content .swiper-slide .section .bloc2 .img_bloc3 {
-    height: 350px;
+    height: 230px;
     padding: 18px 0 0;
     position: relative;
     background-image: url("https://sun9-north.userapi.com/sun9-85/s/v1/ig2/Vo3_pLayTsGDN1YdFjVW5zHFyjdwUO2gMv8UPMF0d1ToeVngNlb4Y6SHvd0VbqbKupcYGJKWwCcDVTJEBNaiwHuB.jpg?size=633x477&quality=96&type=album");
   }
   .content .swiper-slide .section .bloc2 .img_bloc4 {
-    height: 350px;
+    height: 230px;
     padding: 18px 0 0;
     position: relative;
     background-image: url("https://sun1.ufanet.userapi.com/s/v1/ig2/SVdgO_kXfOq01c2_Q1Cm9SASVi88d-gXvL-LRqBaxHbqCAlVQQzhBZj7G5zhY2WUdbi0d7G4OoZA1vmhkFD-Phaz.jpg?size=633x477&quality=96&type=album");
   }
   .content .swiper-slide .section .bloc2 .img_bloc5 {
-    height: 350px;
+    height: 230px;
     padding: 18px 0 0;
     position: relative;
     background-image: url("https://sun1.ufanet.userapi.com/s/v1/ig2/bY_Dtss0Xg9JfXfW45wNQ3LR_exQD5Hn2HVbg_Sozg08YVNeUnY0m80aJr7VSmxFHord8I2wl13wmSYFt56sgAwC.jpg?size=633x477&quality=96&type=album");
   }
   .content .swiper-slide .section .bloc2 .img_bloc6 {
-    height: 350px;
+    height: 230px;
     padding: 18px 0 0;
     position: relative;
     background-image: url("https://sun2.ufanet.userapi.com/s/v1/ig2/4JRke4-aSwAHO-oAcHl6yaRQ8u54xwA3FcAOISKQ23WXhNdP2dDaYVppRfHS2WStJxqWd4IAc0Pz1nxL6BOWdw-c.jpg?size=633x477&quality=96&type=album");
   }
   .content .swiper-slide .section .bloc2 .img_bloc7 {
-    height: 350px;
+    height: 230px;
     padding: 18px 0 0;
     position: relative;
     background-image: url("https://mskcrossfit.ru/wp-content/uploads/2017/03/about2.jpg");
@@ -1591,7 +1589,7 @@ header:before {
     border: none;
     color: #000000;
     height: 37px;
-    margin-left: 10px;
+    margin-left: 95px;
     margin-top: 455px;
     cursor: pointer;
   }
@@ -4555,6 +4553,125 @@ header:before {
   position: absolute;
 }
 
+@media (max-width: 700px) {
+  .div-fut {
+    margin-top: 20px;
+  }
+  .div-fut h1 {
+    color: #ff5a5a;
+    font-size: 45px;
+    margin-top: 80px;
+    font-weight: 700;
+    margin-left: 10px;
+  }
+  .div-fut p {
+    color: black;
+    margin-left: 10px;
+    font-size: 22px;
+    line-height: 35px;
+  }
+  .div-fut p span {
+    padding: 0 5px;
+    background: rgba(255, 0, 0, 0.5568627451);
+  }
+  .div-fut h2 {
+    color: black;
+    font-size: 30px;
+    line-height: 45px;
+    margin-left: 10px;
+  }
+  .div-fut img {
+    position: relative;
+    width: 100%;
+  }
+
+  .div-fut-1 {
+    margin-top: 20px;
+  }
+  .div-fut-1 h1 {
+    color: #000000;
+    font-size: 34px;
+    margin-left: 10px;
+    margin-top: 60px;
+    font-weight: 700;
+  }
+  .div-fut-1 h1 span {
+    padding: 0 5px;
+    background: rgba(255, 242, 0, 0.5254901961);
+  }
+  .div-fut-1 p {
+    color: rgb(53, 53, 53);
+    margin-left: 10px;
+    font-size: 24px;
+    line-height: 35px;
+  }
+  .div-fut-1 li {
+    color: rgb(53, 53, 53);
+    margin-left: -20px;
+    font-size: 25px;
+    line-height: 45px;
+    padding-left: 50px;
+  }
+  .div-fut-1 .p-fut1 {
+    color: rgb(53, 53, 53);
+    margin-left: 10px;
+    font-size: 23px;
+    line-height: 55px;
+  }
+  .div-fut-1 .border-bloc {
+    border: 2px solid red;
+  }
+  .div-fut-1 .border-bloc .hh2 {
+    color: black;
+    font-size: 20px;
+    line-height: 45px;
+    text-align: center;
+    margin-left: 10px;
+  }
+  .div-fut-1 h2 {
+    color: black;
+    font-size: 25px;
+    line-height: 45px;
+    margin-left: 10px;
+  }
+  .div-fut-1 h3 {
+    color: #000000;
+    font-size: 30px;
+    margin-top: 40px;
+    line-height: 55px;
+    font-weight: 200;
+    margin-left: 10px;
+  }
+  .div-fut-1 img {
+    margin-top: 30px;
+    margin-bottom: 60px;
+  }
+  .div-fut-1 .img-tabl {
+    width: 100%;
+  }
+
+  .futer {
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    margin-top: 80px;
+  }
+  .futer p {
+    color: #919191;
+    font-size: 12px;
+    margin-top: 40px;
+    margin-left: 20px;
+  }
+  .futer hr {
+    height: 1px;
+    width: 100%;
+    border: none;
+    margin-top: -1px;
+    background-color: #6c6c6c;
+    position: absolute;
+  }
+}
 .content-str {
   margin-top: 80px;
 }
